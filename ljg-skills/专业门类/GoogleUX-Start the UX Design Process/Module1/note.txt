@@ -1,0 +1,540 @@
+The name UX design says it all: the user’s experience is at the center of how we design products. The best way for you to create great user experiences is to know and empathize with your user. As you might recall, empathy is the ability to understand someone else’s feelings or thoughts in a situation. 
+
+As a UX designer, empathizing with users enhances the products you create because you experience the product as your user does. The better you are at anticipating a user’s desires and needs, the more comfortable the user will feel with your design, and the more likely they will be to engage with your product long-term. 
+
+So, let’s explore how empathy can make you a more effective UX designer!
+
+How to empathize with users
+If empathizing with users sounds like a big task, fear not! The ability to empathize with users is a skill that can be learned with practice. Here are six tips that can help you become a more empathetic UX designer.
+
+Icon of question marks, next to heading: Ask lots of questions
+Ask lots of questions. As a UX designer, you cannot make assumptions about the needs of your users. Instead, ask your users directly about their needs and wants, which your product design can address. Ask questions that begin with what, how, and why to gain a deeper understanding of your users’ perspective.
+
+Icon of a video camera, and a heading that reads "Become more observant"
+Become more observant. Shift your focus to the whole user and not just the words they are using. In interviews where the user is physically present or on a video recording, watching a user interact with you or your product can provide physical cues that can affect your research outcomes. To help capture observations, you’ll take detailed notes or even record your sessions with users.
+
+Icon of an ear, and a heading that reads "be an active listener"
+Be an active listener. Active listening requires you to fully concentrate on, understand, and remember what is being said by the user you’re interacting with. Avoid getting distracted by where the conversation is going or what you might say next. In UX design, practicing active listening can help you get impartial feedback directly from your users, which you can apply to improve your designs.
+
+Icon of a person with arrows pointing towards them, and a heading that reads "request input"
+Request input. It’s important that the feedback you receive is objective and unbiased. Friends or colleagues often provide biased, mostly positive feedback because they want to support or please you. So, it’s important to request input from a variety of sources and a diverse group of users. When asking for feedback, use open-ended questions to understand the user’s actual thoughts on the experience or product.
+
+Icon of a silhouette of a head, opening up to reveal a brain, heading that reads "Have an open mind"
+Have an open mind. We all have biases. Remember, a bias is favoring or having prejudice against something or someone, based on limited information. As UX designers, we have to set those biases aside to better empathize with others. Your goal is to understand users, not to complicate their feedback with your own opinions and emotions. 
+
+Icon of a magnifying glass, heading that reads "Keep current on UX research"
+Keep current on UX research. Follow researchers and join online communities to stay up-to-date on the research that affects UX designers and the users you’re designing for. Research is always changing and evolving as we understand more about human psychology. Staying current will give you an advantage in how you understand and interact with your audience. 
+
+Empathy vs. sympathy 
+Empathy is sometimes confused with sympathy, but the two terms don’t mean the same thing. Empathy means understanding someone’s feelings or thoughts, often by feeling the emotions yourself. Sympathy is the experience of showing concern or compassion without feeling the emotions themselves. 
+
+
+By empathizing effectively with your users and doing your best to understand their needs, you build a great foundation for a product experience that will help solve their unique problems. 
+
+What does empathy mean to you?
+Designing with empathy will enhance the products you create. By building deeper connections with users, you’ll better understand their perspectives and pain points. Finding that connection early can guide you down the right design path and save you from extensive revisions of your product during a later phase of the design process.
+
+With a focus on empathy, you can design a product that offers users everything they need and more. 
+
+To learn more, check out 
+this video on the power of empathy
+ from Dr. Brené Brown.
+
+ You’ve explored the important role that empathy and user interviews play in UX design. You’ve also explored some best practices for recruiting and interviewing users. When planning for interviews, designers often:
+
+Create research goals to guide the interview questions they ask and the design decisions they make based on users’ responses 
+
+Determine the target audience for the product they’re designing for and list key characteristics of the users they want to interview
+
+Write a list of interview questions so they can determine effective questions in advance and ensure consistency across interviews with different users
+
+Now you’ll review an example of this process in action. User interviews require input, collaboration, and time, and you won’t be asked to interview real-life participants until later in this course. For now, this review will help you get comfortable with defining the scope of UX research and understanding potential users of your products. This foundational work will help you when you’re ready to interview users later and when you’re doing UX research on the job. 
+
+
+Review the example
+This example comes from a UX research plan for a food delivery app called Zia's Pizza.
+
+Interview goals: 
+
+I want to understand common challenges people face when trying to manage a busy schedule and when meal planning.
+
+I want to identify frustrations people experience during the process of ordering from a restaurant.  
+
+Target participant characteristics:
+
+Ages 18–62
+
+Live in metropolitan or suburban areas
+
+People who order food from restaurants at least once a week
+
+Include participants of different genders
+
+Include participants with disabilities
+
+Interview questions: 
+
+What is your current schedule like? How do you balance your responsibilities with meal planning?
+
+How often do you order meals from a restaurant? When you do, what is your motivation? 
+
+What challenges do you face in the ordering process? How do these challenges make you feel?
+
+How do you think these challenges could be resolved?
+
+
+
+Consider the research goals
+Research goals guide the interview process and shape subsequent design decisions, so they need to be clear and focused on the problem the designers are trying to solve.
+
+To craft such goals, effective designers often start by considering empathetic questions like these:
+
+Who are my users and what problems or needs is my product aiming to solve?
+
+What about my users do I want to learn from the interviews? 
+
+Are there certain user problems or pain points I need to learn more about?
+
+These kinds of user-focused questions help designers connect with users and create effective research goals, such as:
+
+I want to understand the processes and emotions that people experience around the problem my product is trying to solve.
+
+I want to identify common user behaviors and experiences with tasks that my product is trying to address.
+
+I want to understand user needs and frustrations as they relate to the product I’m designing.
+
+In the example, notice how the designer defines interview goals that are both clear and specific to the Zia’s Pizza app:
+
+I want to understand common challenges people face when trying to manage a busy schedule and when meal planning.
+
+I want to identify frustrations people experience during the process of ordering from a restaurant.  
+
+If the designer can understand these challenges and frustrations, they will be better able to create an effective app, one that creates an easy, meaningful, and enjoyable experience for their target users.
+
+Consider the participant characteristics
+When recruiting and choosing participants to interview, effective designers aim for a representative sample of their target users. To get the best data, it’s important to include a group that’s manageable to interview while also being diverse enough to represent the product’s real-world audience. To define this kind of group, designers often start by considering questions like these:
+
+Who are my end users and what are their key characteristics? Key characteristics include things like age, location, career, gender, disability, and so on.
+
+How might these characteristics shape users’ experiences with or feelings about my product or similar products?
+
+For the Zia’s Pizza app, the ideal interview participants represent the app’s end users. They:
+
+Are aged 18–62
+
+Live in metropolitan or suburban areas
+
+Order food from restaurants at least once a week
+
+Include people of different genders 
+
+Include people with disabilities
+
+By defining these participant characteristics, the designer can recruit the right people to interview and also create more relevant interview questions. Remember that a product’s end users will often be identified in a project’s business requirements. If they’re not, designers typically discover their end users by conducting preliminary user research and consulting with their clients or other business stakeholders.
+
+Consider the interview questions
+Effective interview questions have five characteristics. They are: relevant, open-ended, clear, neutral, and designed for follow-up. Before you explore these characteristics in detail, consider the example interview questions again: 
+
+What is your current schedule like? How do you balance your responsibilities with meal planning?
+
+How often do you order meals from a restaurant? When you do, what is your motivation? 
+
+What challenges do you face in the ordering process? How do these challenges make you feel?
+
+How do you think these challenges could be resolved?
+
+These example questions are relevant because they align with the problem the designer is trying to solve. They are designed to gather information about the experiences, needs, or pain points that users may have with the product or with similar products. 
+
+The example questions are open-ended in that they invite participants to share freely and elaborate. None can be answered with a simple “yes” or “no.” Unless a designer needs a definitive “yes” or “no” answer to a particular question, open-ended questions will almost always generate richer and deeper information about users’ experiences.
+
+The questions are also neutral, which means they are not designed to lead or pressure participants toward a desired response. For comparison, consider this leading, non-neutral question: “When you order meals from a restaurant, is it because you don’t have time to cook or because you don’t want to cook?” This question makes assumptions about users’ motivations and leads them into specific kinds of answers. In contrast, neutral questions will invite participants to share without assuming, anticipating, or directing their responses.
+
+And notice how short and simple the questions are. They will be easy for interview participants to understand and answer because they are conversational and straightforward. 
+
+Finally, notice how the questions are designed for follow-up. Questions 1–3 all have two parts. The interviewer might start with the first part and then prompt participants to elaborate with the second part. During the empathize phase of the design process, interviews should be conversational, so encouraging participants to elaborate is a best practice.  Effective designers often follow up with simple prompts like“Tell me more about that” or with classic “Who, What, When, Where, Why, and How” questions. 
+
+Key takeaways
+Research goals, participant characteristics, and interview questions are the foundation for conducting effective interviews, empathizing with users, and getting useful information about their needs, problems, and experiences. Effective designers take time to prepare thoughtful interview plans that align with their design project’s goals and their users’ needs. They also adjust their questions as their projects progress—as they work through different parts of the design process and need different kinds of information from users. When you craft interview plans for your portfolio project, revisit this review for guidance.
+
+Empathizing with users is critical when it comes to creating a great user experience. In order to empathize with users and understand their pain points, UX designers conduct interviews with real people who might use the product they’re designing.
+
+For this part of this certificate, interviewing real participants is optional. We'll provide fictional user bios that you can use in your research in place of real-life interview participants. This reading summarizes the advice you explored in the 
+Recruiting research participants
+ video. Along with the other reading and videos in this lesson, it is for those who would like to get early experience conducting real-life interviews and for everyone to learn more about the UX research interview process.
+
+Create a screening survey to find the right participants
+The participants you select for a research study should be based on your research goals and the target users of the product you’re designing. The best way to check if potential participants meet the study’s desired characteristics and represent a diverse set of backgrounds is by sending a screener survey. A screener survey is a detailed list of questions that helps researchers determine if potential participants meet the requirements of the research study.
+
+Screening participants often requires collecting demographics, which are the characteristics of a group or individual. Demographics that you might ask about in a screener survey include:
+
+Age
+
+Geographic location 
+
+Job title or industry 
+
+Gender
+
+It’s important to recognize that asking demographic questions can be a sensitive and challenging space to navigate. Be mindful of the questions you ask in screener surveys and how you ask them. Frame questions in a way that is respectful and inclusive, and make questions optional if they ask about demographic data. You might want to preface demographic questions with a short explanation of why the question is being asked. For example, “In the spirit of inclusive design, we are asking these questions to make sure we’re reaching out to a diverse group of people.”
+
+Interviewing participants with diverse backgrounds, perspectives, and abilities is extremely important to ensure that your designs are accessible and equitable. As you start thinking about who you are designing for, aim to form a representative sample. A representative sample is a subset of the target population that seeks to accurately reflect the characteristics of the larger group. 
+
+The participants in a representative sample should include user groups that have been commonly underrepresented in previous research. This lack of representation is often the result of biases due to age, race, gender, or ability. Ultimately, the research you conduct should help you create great experiences for all users. 
+
+Creating representative samples often takes additional time, money, and resources that you may not have access to at the moment. You won’t be asked to create representative samples for this program, but keep in mind that it’s an important part of the UX design work you will be doing in the real world.
+
+Start recruiting participants
+Once you’ve determined the research goals, written interview questions (covered later in
+ How to determine your research goals and questions
+), and created a screener survey to find a representative sample of study participants, you’re ready to start recruiting participants! 
+
+How and where you find research study participants depends on the company you work for, the type of product you’re designing, time constraints for the research, the project’s budget, and the accessibility of target users. Based on these project details, you can choose from a variety of ways to find research participants. 
+
+Personal network: As a UX designer in training, your personal network is a great way to find people to interview! Think about family, friends, or colleagues who fit the demographics of the target users you’re designing for.
+
+Existing user base: If you’re conducting research and creating designs for an organization with an existing user base, you’ll likely be able to recruit participants from that group of established connections. This might not be the case for your current project in this program, but recruiting from an existing user base is pretty common in the real world. 
+
+Online: Alternatively, if you’re coming up with designs for an imaginary company or a newly established business, the easiest way to recruit participants for your study is online. You can use your own social media to find research participants. Or, there are websites created specifically to connect with research participants, like 
+UserTesting
+ and 
+User Interviews
+. You can also find online groups that have users with the demographic characteristics that you want to interview. For example, if you’re designing an app for parents, you might find an online group about parenting. Before you post in an online community, make sure to check group rules or ask an administrator for permission to ask for research participation!
+
+Hallway testing: If recruiting participants online doesn’t seem like an option, a less formal way to recruit for your study is to ask people in person. You can use a recruiting method known as hallway testing, which means asking people that pass by in the “hallway” to try the product you’re designing. Try to position yourself in a location where you’re most likely to encounter your product’s target audience, like a dog park or a coffee shop. Hallway testing can be effective if you’re recruiting a small number of participants, if you have limited time, or if you want to conduct research for free. However, finding participants in this way is risky because the people you collect feedback from might not have all the characteristics of your product’s potential users.
+
+Third-party recruiting agencies: Some organizations have a budget to hire third-party research recruiting agencies. Recruiting agencies are useful because they save you time and can often reach diverse users. 
+
+Now that you’ve learned about finding research participants, you’re ready to conduct user interviews! 
+
+Remember that for the purposes of this course, conducting these interviews is optional. Along with the other reading and videos in this lesson, it is for those who would like to get early experience conducting real-life interviews and for everyone to learn more about the UX research interview process.
+
+Prepare for the interview
+
+Whether you're conducting interviews in person or online, it’s important to be prepared before you speak with real users. You want to make the most of your limited time together and learn as much as you can about their unique perspectives. Here are a few things you can do to prepare for interviews:
+
+Script interview questions. Develop a list of questions that you’ll ask all of the users you interview. It's considered a best practice to keep interview questions fairly consistent across users, but this list of questions is just a guide. You can deviate from the questions you prepared, if necessary, to learn more about the user and their pain points.
+
+Collect supplies. Create a checklist of items you'll need for the interview, such as a computer, a printed list of questions, or paper and a pencil. If you're using new equipment or technology during the interview, make sure you know how it works in advance.
+
+Research the users. Take time to learn what you can about the people you’ll interview. If the users you’re preparing to interview provide their personal information before the interview, be sure to take note of it. This information might include their name, demographic information, relevant experience with the product you’re designing, or details about how they learned about the interview. You can use this information to extend the conversation during the interview and build rapport. When you work for an organization, you can also screen participants on sites like LinkedIn to confirm they are who they say they are. You wouldn’t want to accidentally interview someone who is working for the competition!
+
+Practice. It’s always a good idea to practice delivering the questions you’ll ask users before you conduct a real interview. This gives you time to make changes to the questions you’re planning to ask and helps ensure that the interviews run smoothly. Practicing is also a good way to determine if the length of the interview is appropriate, or if you need to add or cut questions from your list. You can practice asking interview questions in front of a mirror or with a trusted colleague.
+
+Meet the participant
+
+First impressions matter! As you meet users for the first time, at the start of an interview, you want the conversation to be set up for success. Here are a few things you can do when meeting interview participants:
+
+Build rapport. Building good rapport is all about establishing a professional, but friendly, interaction. Making light conversation, like asking how the user's day has been, can help establish a relationship before the interview begins. Simple questions and welcoming gestures can put the user at ease, which will help them share their true feelings once the interview begins. 
+
+Thank users for coming. Before the interview begins, show gratitude to the people you’re interviewing for taking the time to meet with you and share their perspectives. Thanking users is a part of establishing good rapport and can help them feel like their opinions are valued. 
+
+Gather basic details. As you meet users, remember to ask about basic information that's relevant to the interview, such as their name or demographic details.
+
+Conduct the interview
+
+Conducting interviews as a way to empathize with users is all about making the user feel comfortable and asking lots of questions. Here are a couple of things to keep in mind as you conduct interviews:
+
+Follow interview etiquette. Speak in a clear and concise manner while asking questions, and remain professional no matter how users answer a question. Show that you are actively listening while users share their perspectives by doing things such as nodding, making appropriate eye contact, or writing notes.
+
+Ask open-ended questions. Avoid asking questions that would lead to a simple “yes” or “no” answer. Instead, ask questions that start with “why.” For example, avoid asking "Do you like going to the library?" and instead ask "Why do you like or dislike going to the library?" This will allow for more detailed conversations and can reveal useful information to include in the product you're designing. If the participant does provide a short “yes” or “no” answer, you should ask a follow-up question to get them to share more.
+
+Take notes
+
+Interviews tend to happen quickly. Without taking notes, recounting exactly what participants expressed can be nearly impossible! As you watch and listen to participants during the interview, write down as much as you can capture. A robust list of notes and observations will be helpful when you come up with ideas to solve users’ pain points. Here are a few best practices to help you take notes during interviews:
+
+Highlight compelling quotes. The most obvious part of an interview is to take notes on what the user says. Interesting quotes are strong indicators of how users really think and feel. Including quotes in your empathy maps is a great way to feature a firsthand perspective from a real user, which can provide valuable insight when you begin your designs. 
+
+Document observations about participants. It's important to record not only what users say, but also their mood, expressions, body language, and behaviors. Pay special attention to outside factors, like a noise or distraction, that might skew interview responses. All of these observations will be important to consider when creating empathy maps.
+
+Record interviews. Ask participants if they will allow you to record their interview. If they consent, recorded interviews can be really helpful later, for revisiting parts of an interview that you might not remember or taking additional notes after the interview concludes. 
+
+End the interview
+
+After you've asked all of the interview questions, give users a chance to share their final thoughts about any items discussed during the interview. Some participants might open up about their opinions and reveal insights that they didn’t share earlier. 
+
+Also, remember to thank participants once more. You want participants to leave the interview feeling good about you, your future product, and the brand you might be representing.  
+
+
+Empathy is a pillar of good UX design because it helps designers connect with users and understand their needs and problems. Indeed, empathy is so crucial to UX design that the best designers start empathizing with users long before they start formally researching their needs. For example, designers might proactively empathize with users in order to refine their research plans before they begin interviewing. This is called an empathy exercise: Designers use their imaginations and perspective-taking skills to anticipate their users’ experiences so they can ask better interview questions. 
+
+In this review, you’ll explore an example of an exercise in which a designer empathizes with fictional user profile bios. For the purpose of this course, user profiles are short biographies that describe fictional people who stand in for real-life interview participants. Don’t confuse user profiles with user personas: User profiles are short, fictional biographies that aid with informal empathy exercises. In contrast, user personas have a more formal role in the design process: After designers interview lots of people, they distill common user characteristics into user personas, who then stand in for larger groups of similar users throughout the design process.
+
+Before you continue, remember that you’ll have opportunities to conduct real-life interviews later in the program. For now, this review will help you understand how designers empathize with a product’s target audience before they conduct formal interviews.
+
+Interview goals and questions
+In the example we’re exploring, a designer is preparing to interview people as part of their design process for Zia’s Pizza app. You explored their 
+interview plan
+ earlier in the course. Here are the interview goals and questions they have planned:
+
+Interview goals
+I want to understand common challenges people face when trying to manage a busy schedule and when meal planning.
+
+I want to identify frustrations people experience during the process of ordering from a restaurant.  
+
+Interview questions
+What is your current schedule like? How do you balance your responsibilities with meal planning?
+
+How often do you order meals from a restaurant? When you do, what is your motivation? 
+
+What challenges do you face in the ordering process? How do these questions make you feel?
+
+How do you think these challenges could be resolved?
+
+User profile: Reena
+Before the designer conducts interviews, they proactively empathize with target users by focusing on fictional user profiles. Here’s one of those profiles:
+
+Reena
+Age: 37
+
+Education:
+
+Hometown: Lakewood, Colorado
+
+Family: Lives mostly alone, has a teenage daughter
+
+Occupation: Paramedic
+
+Reena is a paramedic who lives in Lakewood, Colorado. They live alone but share custody of their daughter with their ex-partner. Reena works both day and night shifts, and their schedule changes week to week. They are a rock climber who goes to the climbing gym a few mornings a week and also drives their daughter to soccer practice any nights they’re not working. Reena has dyslexia, which makes it difficult to read text quickly and process information in fast-paced settings. Reena is health- and budget-conscious.
+
+Pre-interview empathy exercise
+Before they interview users like Reena, the designer wants to ensure they’re planning to ask the right questions. A pre-interview empathy exercise helps them anticipate participant responses and refine their questions in advance. In the example you’re about to explore, the designer imagines Reena as a real person and tries to anticipate:
+
+How Reena might answer the interview questions
+
+How Reena’s needs, challenges, or concerns might be addressed
+
+As you explore the example, notice how the designer:
+
+Uses perspective taking to imagine Reena’s opinions, experiences, and pain points
+
+Uses bullet points and incomplete sentences to record their thoughts
+
+Remember that the responses in the empathy exercise come from the designer themself, who is asking themself the interview questions and imagining how Reena might respond.
+
+Refined interview questions
+Designers use empathy exercises to validate their research plans, including their interview goals and questions. For example, under the Zia’s Pizza designer’s third interview question, consider the final response they imagine: “Hard to scan information, especially on a small phone screen (dyslexia). This might make Reena feel frustrated and even self-conscious about their disability.”
+
+Having imagined this potential reaction from Reena, the designer re-evaluates the interview question that prompted it. They think through questions like these: 
+
+What if the word “challenges” triggers some users to feel self-conscious? 
+
+Is the word “challenging” too leading? Does this question assume that all participants will actually have experienced challenges?
+
+How might I rephrase Question 3 to be less leading?
+
+The designer then imagines a more neutral version of Question 3 and its follow-up: 
+
+What is the ordering process like for you? Tell me about the experience you have with ordering and how it makes you feel.
+
+Of course, good UX design demands that designers understand users’ challenges, so the designer doesn’t discard that term entirely. Instead, they plan to use it in a follow up question: If users like Reena bring up challenges, the designer will follow their lead and ask, “Tell me more about those challenges.”
+
+Optional empathy exercises 
+Below, you’ll find a set of fictional, sample user profiles. If you want to strengthen your empathy, consider doing empathy exercises with four profiles that you think represent the ideal users for a product you’re designing for your project portfolio. You can change some details about your selected users if you need to make them better fit the users of the product you’ll design.
+
+You might also prefer to conduct interviews with real people at this stage. Interacting with real-life participants can give you an early look into one of the most important parts of many UX design jobs. The following websites can help you connect with research participants: 
+
+UserTesting
+
+User Interviews
+
+If you choose this option, be sure to develop an interview plan according to the guidelines and best practices you explored in earlier course items, like 
+Determine your research goals and questions
+.
+
+Whichever method you choose, you’re encouraged to complete four empathy exercises (or interviews).
+
+Link to user bios: 
+Sample user bios
+
+OR
+
+If you don’t have a Google account, you can download the bios directly from the attachment below.
+
+Organize your data and envision common solutions
+If you opt to do some empathy exercises or interviews, complete the process by analyzing your data and envisioning common solutions:
+
+Analyze what you wrote for each sample user.
+
+Identify possible commonalities across your user profiles (or interview participants). 
+
+Consider whether there are features you can incorporate into your design that will work for a variety of users. 
+
+Imagine that the users you just “interviewed” represent a large segment of the audience for your product. What concerns or problems seem most important to your users? What kinds of features might you build into your app to address these concerns? Be as specific or general as you need to be. (You'll learn more about UX design features in later courses, so it's okay to be vague for now.)
+
+In the example, for instance, notice how the designer identified a favorite feature as a common solution for busy parents who use the app:
+
+The designer wrote, “Like many working parents, Reena is clearly very busy and doesn’t have time to spend browsing for the perfect meal every day. They have favorites they like to order frequently, so having a system in the app where users can ‘favorite’ certain restaurants and then find them easily later, would be useful.”
+
+Key takeaways
+Pre-interview empathy exercises are a great way to imagine users’ responses to interview questions, envision common solutions to users’ possible needs, and identify opportunities to refine your questions for actual interviews. In UX design, remember that empathy starts before and continues after your interviews with users. It’s a crucial tool for refining and executing your approach to every phase of the design process, including user interviews.
+
+
+Build an empathy map
+There are many tools a UX designer can use to empathize with users. Interviewing users is essential to understanding users’ perspectives and learning about their pain points, but that’s only the beginning of the UX research process. In this reading, you’ll learn about one of the many other tools designers can use to identify user needs: empathy maps. 
+
+As the earlier video mentioned, you can create empathy maps for your projects. However, because empathy maps are one of many different tools designers use, they are optional for this part of the course. You are not required to submit any empathy maps for the upcoming CoffeeHouse or portfolio projects.  
+
+Remember, empathy maps are easily understood charts that explain what UX designers have learned about a particular type of user. Empathy maps can help break down each interview into digestible pieces of information.
+
+Empathy mapping in action 
+Imagine your company is building a new app for scheduling dog walkers. The purpose of the app is to match qualified dog walkers with customers who need help caring for their dogs, similar to a ride-sharing or home-sharing app. You’re on the UX team, and your team is in the early stages of designing the app and understanding user pain points. 
+
+A colleague has already interviewed dog owners and professional dog walkers who are expected to use the app regularly. It’s now your responsibility to summarize each interview using empathy maps.
+
+For this example, we’ll go through the steps to create an empathy map from an interview transcript. However, these same steps apply when creating an empathy map from an audio recording or interview notes. This is an example of an interview transcript with Makayla, a fourth-grade teacher with two dogs. You can read the entire transcript below, or you can reference the exemplar document below in a separate window to follow along as you complete the rest of the reading.
+
+To view Makayla's interview transcript externally, you can find it below:
+
+To access the transcript as a file, click the link below and select USE TEMPLATE. 
+
+Link to exemplar: 
+Makayla interview transcript
+.
+
+OR 
+
+If you don’t have a Google account, you can download the exemplar directly from the attachment below.
+
+Makayla and her two dogs.
+Interview transcript
+Name: Makayla Scott
+
+Situation: Makayla is a 45-year-old, female-identifying teacher who lives in Houston, Texas. She has two dogs. Makayla has a demanding job as a fourth grade teacher. She also volunteers as a volleyball coach after school. Makayla’s partner works full time as a pediatric surgeon and regularly switches between working the night shift and the day shift at a local hospital.  
+
+[UX Researcher] Can you describe your current work situation and how you take care of your dogs? 
+
+[Makayla] I work as a teacher, and I coach volleyball after school, so my puppers Reggie and Snowball are often left home alone for long periods of time. My partner works on-call in a hospital, which often means 12-hour day or night shifts. When our schedules overlap, we definitely need help walking Reggie and Snowball.
+
+[UXR] What challenges do you face managing the care of your dogs? How do these challenges make you feel?
+
+[Makayla] I love my dogs! They have so much energy. If it was up to them, they’d go on five walks a day! But, with our schedules, it’s hard to take them out as much as we’d like. I can manage taking them out first thing in the morning and again in the evening. Sometimes, I pay my next door neighbor’s 17-year-old son to walk them. But, the real issue comes from our travel schedule. My partner and I like to take a lot of trips, and we can’t always take our pets with us. Planning our trips would be much easier if we could book a dog walker. 
+
+Our neighbor’s son is graduating this year, and his schedule is becoming inconsistent. I can’t rely on him at the last minute, and I worry that he doesn’t really have the right experience for when I’m on longer trips. I mean, sure, a 17-year-old kid is fine for daily walks. But what if he takes the dogs for a weekend and Snowball gets sick? How will he know what to do, or if he should call me? It definitely makes me worry, but I can’t spend the money on a doggy daycare.
+
+There are also a lot of places I can’t bring Reggie, who is a much bigger dog than Snowball. He’s not hypoallergenic like Snowball is. And, because he’s so big, even bringing him on road trips can be a struggle. We just moved to Houston last year, and there aren’t many people we can ask for help. I’ve considered putting up an ad online, but I’m not sure how I would know who’s safe to allow in my home or who’s good with dogs.  
+
+[UXR] Is there any way in which you feel these challenges could be resolved?
+
+[Makayla] I’d love to find a dog walker that I could prescreen and learn more about. And I’d love a way to book someone consistently. Maybe someone who can do weekends regularly and can commit to specific times while I’m working. Ideally, I could schedule dog sitting days in advance. I just need a consistent dog walker that I can screen to make sure they’re safe and good with animals! I’m willing to pay a little more to get something like this instead of constantly requesting help from my neighbor. 
+
+Creating an empathy map
+Now that you’ve had a chance to review Makayla’s interview transcript, let’s break down the steps for creating an empathy map. As a reminder, here’s what an empathy map includes: 
+
+Empty empathy map diagram: Center circle for user’s name. Four boxes for says, thinks, does, and feels.
+You can fill out this empathy map with a handful of steps.
+
+Step 1: Add the user’s name. Include the name of the person interviewed in your empathy map. Having a name attached to it will help if you ever need to look back at the original transcript or research, and it’ll distinguish this map from other maps you create.
+
+Step 2: The “says” square. Use verbatim quotes from the interview. In other words, write down exactly what the person said; don’t summarize it in your own words. If you summarize a quote, you might accidentally interpret the user’s meaning incorrectly. It’s also helpful to try to capture themes in the interview that relate to the product you’re researching. For example, if the user restates the same problem several times during the interview, then it’s probably a major pain point. Pay special attention to challenges your user states, and record any desired benefits or expectations they mention. 
+
+Step 3: The “thinks” square. Here, you can summarize the thoughts expressed by the user. Add feelings the user conveyed through body language, tone, or other noticeable indicators, even if they didn’t verbally express them to you. You can make inferences for some of these feelings, but you have to be careful not to make assumptions about the user. For example, Makayla expressed concern about her neighbor’s teenage son and mentioned his age and qualifications. An assumption is that Makayla wants an adult dog walker. An inference is that she wants a dog walker with a car and a driver's license who can take the dog to the emergency vet. You can always ask your user for clarification on their body language if you find any contradictions.  
+
+Step 4: The “does” square. Makayla gave us quite a bit of detail on steps and actions she takes to overcome the dog-walking challenges she faces. All those actions can go in the “does” square.
+
+Step 5: The “feels” square. List the feelings the user expresses. The notes you include may overlap with some of what you listed in the “thinks” square. That’s okay! This process is meant to be a thorough documentation of your observations. If you’re the person performing the interview, you might notice signs of feelings like anger, frustration, excitement, and others. If the user doesn’t explicitly mention any feelings during the interview, you can probe for feelings with the question: “How does this make you feel?”
+
+Empathy map example for Makayla
+Now that you’ve reviewed the interview transcript and the steps for creating an empathy map, let’s use our template to take action! Here’s an empathy map for Makayla:
+
+Empathy map for Makalya, with the says, thinks, does, and feels fields populated with information from Makalya’s interview.
+Says
+
+“I’m not sure how I would know who’s safe to allow in my home or who’s good with dogs.”
+
+“I’d love to find a dog walker that I could prescreen.”
+
+“I’d love a way to book someone consistently.”
+
+“Ideally, I could schedule dog-sitting days in advance.”
+
+“...there aren’t many people we can ask for help”
+
+“I’m willing to pay a little more to get...this”
+
+Thinks
+
+Wants to book recurring dog walkers
+
+Would like to prescreen dog walkers
+
+Would like to find dog walkers in advance 
+
+Dog walking is expensive
+
+Would like a dog walker who has experience with animals
+
+Doesn’t know enough people to ask them to walk her dogs 
+
+Wants a more consistent dog walker
+
+Does
+
+Works a full-time job as a teacher
+
+Walks her dogs first thing in the morning and evening
+
+Pays her neighbor, a 17-year-old high school student, to walk the dogs 
+
+Feels
+
+Guilty when she can’t take her dogs for walks
+
+Sad she can’t spend more time with her dogs
+
+Sad she can’t take her dogs on vacation
+
+Worried about finding a consistent, dedicated dog walker that can commit to her schedule
+
+Worried about her larger dog’s needs 
+
+Worried about her current dog walker’s ability to manage a potential sudden illness in her dog
+
+This empathy map breaks down all the points that your team will need to determine how your app can meet Makayla’s needs. The real challenge starts when you lay out the empathy maps from all of your user interviews and figure out how each of your potential users’ needs overlap. 
+
+Types of empathy maps
+It's important to understand that there are two types of empathy maps: one-user empathy maps and aggregated empathy maps (also known as "multiple-user empathy maps"). One-user empathy maps are created by taking the data from one user's interview and turning it into an empathy map, like the example earlier in this reading. This approach helps designers distill a single user's thoughts, feelings, and traits into a format that's easier to gather data from.
+
+The other kind of empathy map, an aggregated empathy map, represents a group of users who share similar thoughts, opinions, or qualities. Aggregated empathy maps are created by creating multiple one-user empathy maps, then combining the maps where users expressed similar things into a new empathy map. This helps designers identify segments, or groups of people with similar tendencies, who will use the product. The insights in aggregated empathy maps allow designers to identify themes, which helps them better empathize with the groups they are designing for. To learn more about the different kinds of empathy maps, check out this article on 
+empathy mapping
+ from the Nielsen Norman Group.
+
+You’re beginning to understand what it means to empathize with your users. Each time you interact with a potential user, you get a little closer to understanding their perspectives and pain points. Good luck!
+
+
+At this point in the course, you’ve learned about empathizing with users and building empathy maps to identify user pain points. You are on your way to learning all about the users that you'll design a product for!
+
+Now, it’s time to start personifying users. Keeping in mind everything that you’ve learned so far, you’ll soon build your first persona. Personas are fictional users whose goals and characteristics represent the needs of a larger group of users. Each persona that you create will represent a group of users with similar characteristics that you’ve learned about through your research. Personas are key to the design process because they reflect the lifestyles of users and give your team an idea of how to meet users’ needs or challenges.
+
+In the world of UX design, the user always comes first. But to put user needs first, we have to know who we’re talking about. So let’s explore how to build personas.
+
+Building personas
+Personas are created by conducting user research and identifying common pain points, which are UX issues that frustrate and block the user from getting what they need from a product.
+
+As you create personas, look for the most common themes in your data and group the users who personify those themes together. For example, imagine that the data collected from user interviews for the dog walker app shows that a lot of potential users between the ages of 45 and 60 are concerned about dog walkers having access to their homes. That would definitely be a pain point you’d want to include in a persona that represents that specific age group of users.
+
+Generally, creating 3 to 8 personas is enough to represent the majority of a product’s user base. Think of personas as an overview of all of your research and interviews. While it’s important for personas to accurately represent users, it’s impossible to meet every one of their specific needs. Personas are also context-specific, meaning they should be focused on the behaviors and goals of users interacting with the product effectively.
+
+For the dog walker app, think about a scenario from the perspective of a dog owner:
+
+Daniela is a 48-year-old freelance film producer who lives with their partner Priya and their two children in Atlanta, Georgia. The family recently adopted a golden retriever puppy named Cisco. 
+
+The family takes regular trips with the kids for gymnastics competitions, and Daniela often travels for long periods of time when filming. Daniela wants to find someone to take care of the puppy, Cisco, while the family is away or busy. 
+
+Daniela’s biggest concern is trusting a stranger to come into their home and to take care of their puppy. Daniela would be most comfortable hiring someone who knows how to properly care for puppies and can take Cisco on walks and to dog parks. 
+
+Here's what a persona might include for Daniela, using the persona template that was shown in the video:
+
+
+You can use the information in personas to create designs that speak directly to users, like Daniela. This ensures users have the best experience when using your product! For example, in your designs, you might want to indicate that the dog walkers are screened by the app and must pass background checks, which would reassure users like Daniela that their dog will be safe.
+
+Pro tip: Get your team's opinion on the product’s users before you build personas. Then, after you build personas, review those suggestions from your team and compare them to the personas you created. Point out how the data validated or contradicted their suggestions. Everyone on your team needs to understand the personas in order to truly connect with your users.
+
+There are many ways you can create personas. You can explore a variety of persona templates like these 
+persona templates and examples
+ from Just In Mind and these 
+customizable persona templates
+ from Xtensio. You might notice that some personas are very long and detailed! Or, you might notice different topics in the persona examples that we haven't covered in this course. Feel free to explore and use a persona template that works best for you and your design project.
+
+If you want to learn even more, check out this 
+introduction to personas
+ from Interaction Design Foundation.
