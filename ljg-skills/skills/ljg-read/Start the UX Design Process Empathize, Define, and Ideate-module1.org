@@ -1,0 +1,275 @@
+#+title:      伴读：Google UX Design - Empathize with Users
+#+date:       [2026-04-22 Wed 18:13]
+#+filetags:   :reading:
+#+identifier: 20260422T181300
+#+source:     Google UX Design Certificate Course Transcript
+
+* 全局地图
+
+** 一句话摘要
+
+这是一份 Google UX 设计证书课程的转录稿，教初学者如何通过共情、用户访谈、同理心地图、痛点分析和用户画像来理解真实用户，从而解决*对的问题*而非*假设的问题*。
+
+** 结构地图
+
+  COURSE INTRO (Emily / 课程概览)
+       |
+       v
+  EMPATHY CONCEPT <---> PITY vs SYMPATHY vs EMPATHY
+       |
+       v
+  USER RESEARCH: INTERVIEWS
+       |
+       +---> Recruiting (screener, representative sample, channels)
+       |
+       +---> Preparation (script, supplies, research user, practice)
+       |
+       +---> Conducting (4 steps: meet -> conduct -> notes -> wrap)
+       |
+       v
+  EMPATHY MAP (Says / Does / Thinks / Feels)
+       |
+       v
+  PAIN POINTS (4 categories)
+       |
+       v
+  PERSONAS (fictional users based on research)
+       |
+       v
+  COURSE WRAP-UP
+
+** 段落分类概览
+
+- *[骨]* 共情定义与三层区分 / 访谈四步法 / 同理心地图四象限 / 痛点四分类 / 用户画像定义与三层价值
+- *[肌]* 外卖app/天气app/购物app等场景例子 / 招募邮件细节 / Simone/Miranda/Lewis反馈 / Tsering/Mavis等画像实例
+- *[筋]* 课程过渡语与模块衔接
+
+* 逐段伴读记录
+
+** 第1段：共情的定义与三层区分 [骨]
+
+*** 翻译
+
+*直译层（信）*：
+
+Empathy is the ability to understand someone else's feelings or thoughts in a situation. Pity usually has condescending overtones — pitiful and pathetic are synonyms. Sympathy means you acknowledge their feelings but keep yourself from experiencing those feelings. Empathy goes beyond sympathy: you share their mental and emotional experiences.
+
+*意译层（达）*：
+
+共情是你能钻进别人的处境，感受他们的感受和想法。怜悯带着居高临下——"可怜"和"可悲"是一伙的。同情是你承认对方有情绪，但站在岸上看。共情是跳进水里，和对方一起泡着。
+
+*点睛层（雅）*：
+
+英文里 pity / sympathy / empathy 的递进是"俯视→旁观→共在"。中文常把 sympathy 和 empathy 都译成"同情"，这会抹掉关键区别。sympathy 是"我为你难过"，empathy 是"我陪你难过"。UX 设计要的是后者。
+
+*** 结构标注
+
+核心论点——全文地基。作者用三分法把"理解用户"从廉价的情绪反应中解救出来，确立共情作为专业能力的地位。
+
+*** 注疏（源流 / 背光）
+
+这个三分法不是 UX 界的发明。它可以追溯到德国美学里的 *Einfühlung*（移情），后来由美国心理学家 Edward Titchener 在1909年译成 empathy。在 UX 语境下，它借用了心理治疗师 Carl Rogers 的"无条件积极关注"传统——治疗师不评判，只进入。Google 把这个临床概念搬进了产品设计。
+
+*** 碰撞记录
+
+*Agent 提问*：作者说 UX 设计不是解决"我们假设用户想解决的问题"，而是"用户真正想解决的问题"。但你想想：如果用户自己都不知道自己需要什么（比如智能手机出现前的 flip phone 用户），你怎么区分"用户真正想要的"和"用户不知道自己想要的"？这个边界你接受吗？
+
+---
+
+** 第2段：用户访谈——招募与代表性 [骨]
+
+*** 翻译
+
+*直译层（信）*：
+
+To recruit participants, start with interview goals: what do you want to learn? Aim to form a representative sample — a subset of the target population that accurately reflects the larger group. Include user groups commonly under-represented due to biases of age, race, gender, or ability.
+
+*意译层（达）*：
+
+找人聊天之前，先问自己：我到底想弄明白什么？然后挑人时要凑一副"缩微全景图"——小群体得照出大群体的模样。尤其要捞那些以前被漏掉的：老年人、少数族裔、女性、残障人士，别让偏见替你筛选。
+
+*点睛层（雅）*：
+
+"Representative sample" 在统计学里是有严格定义的（随机抽样），但 UX 研究里的样本量通常太小，做不到统计意义上的代表。这里的 representative 是"质性代表"——覆盖关键差异维度，而非数学比例。
+
+*** 结构标注
+
+方法论骨架——研究有效性的前提。没有代表性样本，后续所有洞察都是偏的。
+
+*** 注疏（对手 / 逆光）
+
+代表性样本说起来容易，做起来贵。作者提到第三方招募机构要花钱，但更大的问题是：当你为"无障碍"特意招募残障用户时，你是否在把边缘体验中心化？一个反驳是：主流用户已经享受了太多默认设计，不刻意倾斜，系统本身就是有偏的。你怎么站队？
+
+*** 碰撞记录
+
+*Agent 提问*：作者说"从认识的人开始招募"。但熟人会因为社交礼貌给你"好听的答案"。如果你只能找到熟人，你怎么设计问题或场景，才能撕开那层礼貌？
+
+---
+
+** 第3段：用户访谈——执行四步法 [骨]
+
+*** 翻译
+
+*直译层（信）*：
+
+Step 1: Meet the participant. Build rapport, review legal details, gather basic info, let them know there are no right or wrong answers. Step 2: Conduct. Speak clearly, remain professional, ask open-ended questions starting with why or what, ask follow-ups. Step 3: Take notes. Highlight compelling quotes, document observations about mood/expressions/body language, consider recording. Step 4: Wrap up. Give users a chance to share final thoughts, thank them, provide incentives.
+
+*意译层（达）*：
+
+第一步，破冰。闲聊两句，把"被审问"变成"聊天"，交代法律事项，强调"没有标准答案"。第二步，开聊。问"为什么"和"什么"，别问"是不是"。对方说完，再捅深一层。第三步，记笔记。不光记说了什么，记叹气、皱眉、身体往后仰。能录音就录音。第四步，收尾。给机会补话，真诚感谢，兑现报酬。
+
+*** 结构标注
+
+操作骨架——访谈的完整生命周期。四步构成一个闭环：建立信任→挖掘信息→捕获证据→维护关系。
+
+*** 注疏（同构 / 侧光）
+
+这四步和新闻记者、人类学田野调查、甚至警察审讯的结构是同构的：rapport building → information extraction → documentation → closure。差别只在伦理立场和权力关系。UX 访谈声称是"平等对话"，但设计师掌握着产品定义权，用户是来被研究的。这种权力差，你意识到了吗？
+
+*** 碰撞记录
+
+*Agent 提问*：作者说"问开放式问题"，但开放式问题也可能让用户失焦、漫谈。你有没有遇到过"问得太开放，对方不知道从何说起"的情况？如果让你在一个极端封闭（是/否）和一个极端开放（"聊聊你的想法"）之间选一个，你倾向哪边？为什么？
+
+---
+
+** 第4段：同理心地图——四象限 [骨]
+
+*** 翻译
+
+*直译层（信）*：
+
+An empathy map consists of four squares: what the user says, does, thinks, and feels. The user goes in the middle. Says uses direct quotes. Does covers actions and behaviors. Thinks includes things you infer through observation like facial expressions. Feels comes from asking open-ended questions about emotions or observing emotional cues.
+
+*意译层（达）*：
+
+同理心地图是一张四格表，中间写着用户名字。左上：*说*——原话引用。左下：*做*——行为动作。右上：*想*——你没听见但能从表情里读出来的。右下：*感*——直接问出来的情绪，或者你观察到的。
+
+*点睛层（雅）*：
+
+Thinks 和 Feels 的区分很微妙。中文里"想"和"感"常被混为一谈（"我觉得"既可以指思考也可以指感受）。这里 thinks 是认知层（"这靠谱吗？"），feels 是情绪层（"我很烦"）。做 UX 时，用户嘴上说 thinks，身体语言泄露 feels，两者矛盾的地方往往藏着真需求。
+
+*** 结构标注
+
+核心工具——把混沌的访谈数据结构化。四象限强制设计师区分"公开表达"和"隐性信号"。
+
+*** 注疏（同构 / 侧光）
+
+这个四格结构和戏剧理论里的"斯坦尼斯拉夫斯基表演法"同构：演员要同时把握角色的台词（says）、动作（does）、内心独白（thinks）和情绪记忆（feels）。好的 UX 设计师和好的演员干的是同一件事：成为用户。
+
+*** 碰撞记录
+
+*Agent 提问*：同理心地图把"说"和"想"分开，暗示用户会撒谎或不自知。但如果用户就是诚实的，"说"和"想"完全一致，这个工具是不是多余了？换句话说，这个工具的存在，是否预设了"用户不可全信"的前提？你接受这个预设吗？
+
+---
+
+** 第5段：痛点四分类 [骨]
+
+*** 翻译
+
+*直译层（信）*：
+
+Pain points fall into four categories. Financial: problems related to money, like paywalls. Product: quality issues, like Norman Doors. Process: frustrations stopping users from point A to point B, like checkout struggles. Support: when users can't find answers to their questions, like hidden customer service info.
+
+*意译层（达）*：
+
+用户卡壳分四类。钱的问题：读到一半跳出付费墙。货的问题：门该推你却在拉（Norman Door）。路的问题：购物车到结账死活走不通。人的问题：找不到客服，喊救命没人应。
+
+*** 结构标注
+
+问题分类骨架——把模糊的"不爽"翻译成可操作的缺陷类型。
+
+*** 注疏（源流 / 背光）
+
+Norman Door 来自认知心理学家 Don Norman 的《设计心理学》（*The Design of Everyday Things*）。那本书1988年出版，至今仍是 UX 圣经。Norman 的核心洞见是：如果用户用错了，不是用户蠢，是设计蠢。这个"责备设计而非用户"的范式转换，是整个 UX 行业的出生证。
+
+*** 碰撞记录
+
+*Agent 提问*：这四类痛点是互斥的吗？比如"找不到客服"（Support）和"网站导航混乱"（Process）是不是经常搅在一起？作者给了一个干净的分类法，但真实世界的痛点往往是混血的。你觉得分类是为了"看清问题"，还是为了"方便团队分工"？哪个目的更重要？
+
+---
+
+** 第6段：用户画像的定义与三层价值 [骨]
+
+*** 翻译
+
+*直译层（信）*：
+
+Personas are fictional users whose goals and characteristics represent the needs of a larger group. They are built based on research, not made up. They build empathy and put a face to the user. They tell stories, turning stakeholder presentations into storytelling. They stress-test designs: what works for one persona might not work for another.
+
+*意译层（达）*：
+
+用户画像是基于研究捏出来的虚构人物，代表一群真人。不是编故事，是立靶子。第一层价值：让团队看见具体的人，而不是"533,000个百岁老人"这种没温度的数字。第二层价值：把汇报会变成讲故事。第三层价值：用不同画像互相掐架——Mavis 要无障碍，Diane 要省时间，设计得同时过两关。
+
+*点睛层（雅）*：
+
+Persona 的虚构性常被误解为"假"，但它的力量恰恰来自"具象的虚假"。统计数字是抽象的真理，persona 是具体的虚构。人类大脑对具体叙事（Mavis 百岁跑步）的记忆强度远超抽象数据（533,000人）。这是认知科学里的"可识别受害者效应"（identifiable victim effect）。
+
+*** 结构标注
+
+核心工具——从"用户群"到"人"的跃迁。三层价值构成递进：情感连接 → 沟通效率 → 设计校验。
+
+*** 注疏（对手 / 逆光）
+
+Persona 最大的批评来自学术界：它把复杂的人群压缩成几个刻板印象。Alan Cooper（persona 方法的发明者）最初是为了对抗"弹性用户"（elastic user）——那种被产品经理随意拉扯、想是谁就是谁的"用户"。但 persona 本身也可能变成新的弹性用户，只是包装得更精美。如果一个团队只有三个 persona，他们是否遗漏了长尾需求？
+
+*** 碰撞记录
+
+*Agent 提问*：作者说 persona 能"stress-test designs"。但 stress-test 的隐含前提是：设计团队愿意被挑战。如果你所在的环境里，产品经理已经定好了方案，persona 只是用来"证明决策正确"的道具，这个工具是不是已经从手术刀变成了化妆品？你在项目里见过哪种用法？
+
+---
+
+** 第7段：课程场景例子（外卖/天气/购物app）[肌]
+
+以上数段在支持骨架段"同理心地图四象限"和"用户访谈执行"的论证，提供可触摸的操作场景。
+
+Simone 抱怨时间预估不准；Miranda 也有同感；Lewis 想要实时追踪。三人的反馈拼成一张聚合同理心地图。天气 app 的访谈目标是理解人们面对不可预测天气时的情绪。购物 app 则观察加购、删购行为。
+
+---
+
+** 第8段：Tsering Choedon 与 Mavis Hunter [肌]
+
+以上数段在支持骨架段"用户画像价值"的论证，用正反例展示"具象化"如何激活团队情感与决策。
+
+Tsering Choedon，35岁，内布拉斯加州环保非营利组织创始人，不太懂技术但知道必须上网找志愿者。Mavis Hunter，100岁才开始跑步的竞赛选手。作者用 Mavis 对比"533,000位百岁老人"的统计数据，证明具体叙事比抽象数字更能驱动行动。
+
+---
+
+** 第9段：课程过渡与引入 [筋]
+
+作者从课程回顾过渡到新模块，从自我介绍过渡到方法论，从同理心地图过渡到痛点分析，从痛点分析过渡到用户画像。
+
+* 全文复盘
+
+** 理解轨迹
+
+  [共情定义] ---> [访谈方法] ---> [同理心地图] ---> [痛点分类] ---> [用户画像]
+       |               |                |                  |               |
+     停驻            停驻             停驻               停驻            停驻
+   (概念辨析)      (权力反思)       (信度追问)         (分类边界)      (工具异化)
+
+** 读后一句话（不可跳过）
+
+"你教了我很多工具，但最让我不安的是那个我没法在访谈问卷里直接问出来的问题：当用户自己都不知道自己要什么时，我该信我的洞察，还是信用户的嘴？"
+
+** 终局问题
+
+如果共情的终点是"成为用户"，那么当用户的真实需求和你所在公司的商业目标冲突时，你扮演的到底是用户的代言人，还是公司的翻译官？这个身份裂缝，你打算怎么补？
+
+** 术语表
+
+| 英文 | 中文译法 | 本文含义 | 出现位置 |
+|------|----------|----------|----------|
+| Empathy | 共情 | 进入用户情境，共享其心智与情绪体验 | 模块2 |
+| Sympathy | 同情 | 承认对方情绪，但保持旁观距离 | 模块2 |
+| Pity | 怜悯 | 居高临下的情绪，带施舍感 | 模块2 |
+| Screener survey | 筛选问卷 | 用来甄别符合条件的访谈对象的问题清单 | 模块3 |
+| Representative sample | 代表性样本 | 能反映更大群体特征的小群体（质性层面） | 模块3 |
+| Open-ended questions | 开放式问题 | 无法用"是/否"回答，鼓励叙述的问题 | 模块3 |
+| Empathy map | 同理心地图 | 四象限工具（说/做/想/感），可视化用户洞察 | 模块4 |
+| Pain points | 痛点 | 阻碍用户达成目标的挫败体验 | 模块5 |
+| Persona | 用户画像 | 基于研究的虚构用户，代表特定用户群 | 模块6 |
+
+** 下一步线索
+
+- 同理心地图的四象限法在 *Indi Young* 的《Mental Models》中有更激进的版本——不只四格，而是完整的心智空间图。如果你想知道"想"和"感"之外还能挖多深，去搜 Indi Young 的 mental model diagram。
+- 关于"用户不知道自己想要什么"的困境，Steve Jobs 的立场和 Henry Ford 的"faster horse"名言是经典反方。如果你想深入这个张力，去读 *Rob Fitzpatrick* 的《The Mom Test》——它教你怎么问才能绕过用户的礼貌谎言和自我欺骗。
