@@ -1,0 +1,39 @@
+Hey, my name is Ayan, and I am
+a visual designer at Google. An edge case is a situation
+within a product experience that the product team doesn't think it's
+very likely to happen, or that is outside of the typical flow
+within that product. When you're trying to figure out what the edge cases
+are for your product, you really need to
+actually sit down with users and see how their real life actually
+shakes out with your product. Often what you think is going to happen when your app is
+in the hands of a user, is actually not what happens. Identifying those cases
+is really key to creating a harmonious experience when things don't go the way
+that you plan for them to. An edge case that I've
+worked on semi-recently, I was the visual design lead on the Messages product at Google. It's our texting solution. And as I was creating that brand, differentiating visually
+RCS, which is the future of texting, things like typing
+indicators, versus SMS, somewhat of the past of texting, the typical protocol
+that you would use to text your mom, let’s say. Creating a visual system that
+would work harmoniously and these two supposedly
+separate experiences make that, on the off case that
+your phone loses access, you would still have a
+harmonious experience. As a visual designer, I really wanted to make sure that these two spaces, that
+we didn't intend to ever live together, still
+would make sense if it did. And that actually in practice, that happened quite a bit. When you see screenshots
+of our texting app, you'll notice that
+whether or not it's an RCS versus SMS or maybe
+a combination of the both, it should still look beautiful. As we were working
+on this project and really creating a new branch
+for the Messages app, I worked really closely with product management
+to come up with a strategic plan so that as this redesign lived
+out in the wild, so to speak, we had a plan
+for the years to come. While RCS was our big
+bet for the future, we wanted to make sure
+that the SMS reality of that time would be harmonious as our product
+matured over the years. Identifying future use cases versus current use cases really helped us identify
+these edge cases that would be
+prevalent current day, that maybe wouldn't
+be so prevalent in our hopeful future. I get so proud when I see screenshots of text
+message conversations out there on social media and sometimes you see SMS with RCS, that light blue bubble with that dark blue bubble and
+I'm proud to say that we identified that
+edge case before it became an issue for
+our brand perception.

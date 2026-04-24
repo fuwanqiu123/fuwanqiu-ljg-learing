@@ -1,0 +1,12 @@
+You made it. Let's recap some of the tools that help UX
+designers empathize with users. First, you started with the
+steps involved in crafting a user story based on personas
+to capture their needs. Then you learned how to use edge cases to anticipate
+potential issues for the user. Next, you learned about how user journey maps
+are used to help UX designers understand
+the challenges a user may face when trying
+to use your product. Finally, you explored the
+importance of creating an accessible and inclusive
+design experience for users. I'll meet you in the
+next part of the course, which is about the second
+phase of the design process, define. See you there.

@@ -1,0 +1,363 @@
+Hi there in this part of the course,
+we'll continue to explore some of the ways UX designers build empathy with users
+of the products they designed for. We'll start with user stories which
+are fictional, one sentence stories that connect the needs of a potential
+user to a specific action and benefit. After that, you'll learn about user
+journey maps, a tool used by UX designers to understand the obstacles a user
+faces while interacting with a product. Lastly, we'll explore some strategies for keeping accessibility top of mind during
+the empathize phase of the design process. So let's get started.
+Hey, there. Now that we
+know all about personas, it's time for some stories. A user story is a fictional
+one-sentence story told from a persona's point of view to inspire and inform
+design decisions. It introduces the user, lays out an obstacle, and
+states their ultimate goal. Don't get confused if you
+notice some designers refer to these as
+scenarios or user cases, they mean the same thing. Now, let's check out the goal, structure, and benefits
+of user stories. The user story expands
+on the persona and deepens your understanding
+of a user group. Here are some cool things a
+user story can do for you. User stories prioritize
+design goals. If you have a lot of
+user needs to consider, user stories,
+determine which ones are the most critical to resolve. User stories also unite the
+team around a clear goal. A good user story
+can also inspire empathetic design decisions by making our approach
+user-centered, also known as user-centric.
+And finally, user stories personalize pitches
+to stakeholders. You aren't just presenting
+your design update ideas. You're demonstrating
+how the updates will help specific
+types of people. So how do you write a user story? Like a classic short story, user stories have a hero with an ultimate goal and a conflict that keeps them
+from conquering that goal. To write a user story, we follow this simple formula. As a type of user, I want to action,
+so that benefit. All that's left now is filling
+in the missing pieces. Type of user describes
+who we are designing for. Action is what the user
+hopes will happen. And finally, benefit is why the user wants the
+action to happen. This formula keeps the problem user-centered,
+actionable, and clear. Let's think about a user story that I experience all the time. As an online shopper, I want to receive a
+text when the item arrives so that I can
+pick it up right away. So now you know what
+a user story is, why it's important, and
+how it's structured. Up next, you'll
+learn how to predict and prevent a bad
+user experience.
+Welcome back. With user
+stories, just like any story, there's always a
+chance that things might not go exactly
+how you want them. The hero detective doesn't
+always crack the case, and your user doesn't
+always reach their goal. Luckily for your user, you can change their
+experience as a UX designer. When building a new
+or improved product, the designer's goal is to keep all users on the happy path. The happy path describes a user story with
+a happy ending. For this user,
+everything goes as they expect and they reach
+their goal without issue. Unfortunately, for other users, things don't go
+quite as smoothly. For example, let's say
+Iyla, a Londoner, wants to buy
+birthday flowers for her friend Priya in California. She visits the website of a California-based flower
+shop and gets to work designing a bouquet of Priya's favorite flowers and writing a meaningful message. Everything is going well. Iyla's on the happy path. But when Iyla asked
+to enter her address, there's a field that
+asks for her home state. Iyla doesn't have a home state, she lives in London, England. She tries to skip that field, assuming the site will let her, but the state field is
+required to proceed. She reaches a dead end
+on the happy path. After all that work, has to close the
+website and find another way to get
+flowers for her friend. In the design world
+Iyla and others like her are called
+edge case users. An edge case is a
+rare situation or unexpected problem
+that interrupts a standard user experience. Good UX anticipates
+edge cases and reroute users back to the happy path when things don't go as planned. In edge cases, the obstacle is often beyond the
+user's control to fix. Think back to Iyla
+who only wants to wish her friend in
+America a happy birthday. There is no way for her
+to skip the state field, so there is no way for
+Iyla to successfully buy Priya's flowers on
+the shop's website. Unfortunately, Iyla's
+user experience is unrepairable on her end. Let's check out some UX design
+pro tips for spotting and resolving potential edge cases before the product launches, so other users don't end
+up in Iyla's situation. Pro tip 1: create personas
+and user stories. If UX designers make sure their
+personas and user stories account for a wide variety
+of users and problems, they can keep even the most vulnerable users
+on the happy path. Pro tip 2: thoroughly review
+the project before launch. In the rush to launch a product, UX designers might focus
+only on the happy path. Giving the project a final good review from
+the user's perspective, helps designers
+identify edge cases. Pro tip 3: use wireframes. You'll learn how to
+create wireframes later. Wireframes help
+visualize the project, which makes it
+easier to identify potential user pain
+points and fix them before launch for folks who
+are not visually impaired. We all have that
+friend who always has whatever you need
+when you need it. For example, if you're
+at an amusement park having lunch and dropped
+your fork on the floor, this friend's got an
+extra fork ready to go. Need an extra pair
+of nylon footies to try on some fancy flats? They've got you covered. As a UX designer, you want to be that
+friend to all users. You want to be able to anticipate what needs
+they might have, whether they're on the
+happy path or not. Okay, so far we've gotten to know
+our users and their stories. Up next, we'll go on a
+journey. The user journey.
+Hey, my name is Ayan, and I am
+a visual designer at Google. An edge case is a situation
+within a product experience that the product team doesn't think it's
+very likely to happen, or that is outside of the typical flow
+within that product. When you're trying to figure out what the edge cases
+are for your product, you really need to
+actually sit down with users and see how their real life actually
+shakes out with your product. Often what you think is going to happen when your app is
+in the hands of a user, is actually not what happens. Identifying those cases
+is really key to creating a harmonious experience when things don't go the way
+that you plan for them to. An edge case that I've
+worked on semi-recently, I was the visual design lead on the Messages product at Google. It's our texting solution. And as I was creating that brand, differentiating visually
+RCS, which is the future of texting, things like typing
+indicators, versus SMS, somewhat of the past of texting, the typical protocol
+that you would use to text your mom, let’s say. Creating a visual system that
+would work harmoniously and these two supposedly
+separate experiences make that, on the off case that
+your phone loses access, you would still have a
+harmonious experience. As a visual designer, I really wanted to make sure that these two spaces, that
+we didn't intend to ever live together, still
+would make sense if it did. And that actually in practice, that happened quite a bit. When you see screenshots
+of our texting app, you'll notice that
+whether or not it's an RCS versus SMS or maybe
+a combination of the both, it should still look beautiful. As we were working
+on this project and really creating a new branch
+for the Messages app, I worked really closely with product management
+to come up with a strategic plan so that as this redesign lived
+out in the wild, so to speak, we had a plan
+for the years to come. While RCS was our big
+bet for the future, we wanted to make sure
+that the SMS reality of that time would be harmonious as our product
+matured over the years. Identifying future use cases versus current use cases really helped us identify
+these edge cases that would be
+prevalent current day, that maybe wouldn't
+be so prevalent in our hopeful future. I get so proud when I see screenshots of text
+message conversations out there on social media and sometimes you see SMS with RCS, that light blue bubble with that dark blue bubble and
+I'm proud to say that we identified that
+edge case before it became an issue for
+our brand perception.
+Now that you've
+planned and prepared for happy paths and edge cases, let's discover what user
+journeys are all about. A user journey is the
+series of experiences a user has as they
+achieve a specific goal. User journeys built
+off the persona's and stories you've
+already created. They help you think and
+feel like the user, which is super important. If you can't put yourself
+in the user's shoes, you can't be sure your design
+will really help them. Before you start
+the user journey, you need a journey map. A journey map is just
+what it sounds like; an illustration of what the user goes through to
+achieve their goals. Think of it like reading a book. If the persona is
+your character, the user story is your plot, and the journey map is
+your story outline. First, let's do a
+little experiment. Imagine we want to drive
+to the beach for a swim. We can pull up a
+map on our phone to get an overview
+of the best route. We know our starting
+point and our end point. Let's go for a drive. So far, so good. Looks like a traffic
+jam up ahead. Luckily, the map app gives us a detour route to
+avoid the traffic. Map apps help drivers avoid
+obstacles along their route. The same idea applies
+to journey maps. A user journey map helps UX designers create obstacle
+free paths for users. That's the first benefit
+to user journey mapping. Now let's go over some more. A user journey map reduces
+the impact of designer bias, which you might remember as the tendency for the designer to design according
+to their own needs and wants instead of a user's. Creating a user journey map
+lets you thoroughly document the entire sequence
+of events and interactions a user experiences, including the user's
+interaction with your design. That way you can really focus
+on how a specific persona, not you, thinks and feels at
+every step of the journey. User journey mapping also
+highlights new pain points. For example, say your persona, Kindred, is biracial. Her user journey is spilling
+out her census info online. Everything is going well
+until it's time for Kindred to select her race
+from the drop-down menu. Suddenly she hits a roadblock. There's no option for her to identify herself as
+both Black and Asian. That's a big pain point. If you yourself aren't biracial, you might not have
+predicted this problem. But by creating the
+persona of Kindred, giving her a story
+and mapping out her journey using a
+user journey map, you're able to clearly
+identify the issue she's experiencing and
+improve the design. This brings us to the final key benefit of journey mapping. Identify improvement
+opportunities. In Kindred's example, you
+could add an option in the menu for users to write
+in their own racial identity. Or maybe you could
+add another field to the drop-down menu for
+multi-racial citizens. Improving the UX here can
+make a big difference. How do we map out
+a user journey? One action at a time. Let's say our persona, Jamal, comes from a town of 500
+people in rural Mississippi. He uses a wheelchair
+to get around and he's visiting New York
+City for the first time. Today. He wants to fulfill
+his dream of going all the way to the top of
+the Empire State Building. How do we map out his journey? To start, identify
+the first task the user needs to complete. In this case, Jamal
+needs to find a subway route that will take him to the Empire
+State Building. Next, list all the things the user needs to do
+to reach their goal. Here's a list of
+Jamal's main tasks. Task 1, determine the subway
+line and route to take. Task 2, find the nearest station with
+wheelchair accessibility. Task 3, buy a ticket. Task 4, find the right
+platform and make sure the train is headed toward the Empire State Building
+and not away from it. Task 5, board the subway. Task 6, find the right exit. The next action in mapping a
+user journey is describing all the smaller
+things the user must accomplish before graduating
+to the next main task. Here's what that might
+look like for Jamal. So that's it. You got Jamal all the way to the
+Empire State Building. Your work here is
+done. Not exactly. You've completed Jamal's
+physical journey, but you still need to consider
+his emotional journey too. The third action in mapping a
+user journey is identifying the user's likely emotions as
+they go from task to task. For example, imagine
+how Jamal might feel the first time he looks
+at the subway line map. He might be confused and
+intimidated or imagine that Jamal's purchased
+his ticket and is trying to get to
+the right platform. He can't use the stairs, so he'll need to find
+an elevator or ramp. The elevator might
+not be working, so he has to find a ramp. This experience could
+make Jamal feel overwhelmed and make
+him feel excluded. There's one final action in
+our journey mapping exercise. Once we've identified
+the user's emotions, we can then identify opportunities to improve
+his user experience. This is where user
+journey mapping can really enhance UX design. Without mapping the actions
+of Jamal's journey. It might never have
+occurred to us to add an accessibility key to the map to help users
+with wheelchairs navigate the subway
+stations more easily. Here's what a completed
+user journey map looks like for Jamal. Now you know how user journey is build off of user
+stories and personas, you also know the benefits
+of user journey maps, and you understand how
+to create a journey map. Jamal's user journey may
+have come to an end, but we've still
+got a long way to go in our UX design journey
+Hi again. You just
+learned about personas, user stories, and user journeys. I'm here to help you learn how to consider accessibility
+in each of these. Why do we need to consider
+personas, user stories, and user journeys of
+someone with a disability? Well, people with disabilities
+share the same goal for any given user problem that your design is
+trying to solve. Additionally, accessibility
+is not just designing to include a group of users
+with varying abilities. Instead, it extends to anyone who is
+experiencing a permanent, temporary, or
+situational disability. Designing with accessibility
+in mind means making sure, Betty, a user with
+only one arm; Angela, a user with a
+sprained wrist; and Juan, a user holding
+a colicky newborn, all have everything they need to stay happily on
+their user journeys. Betty's disability is permanent,
+Angela's is temporary, and Juan's is situational, but they all need to achieve their user goal
+with only one hand. You want to design products
+that can be used by everyone. As UX designers, we don't
+want to leave Betty, Angela, or Juan behind. It's critical to understand
+how a person with a disability might have a
+slightly different journey due to the fact that
+their needs may not have been addressed during
+the initial design process. Sometimes not
+addressing those needs can have serious consequences. Consider fire safety
+escape routes. Usually, people
+are advised to use the stairs to exit a
+building during a fire. But what about people who use
+wheelchairs to get around? They're not considered in those evacuation plans and maps. Accessibility should
+matter to all of us. Start familiarizing yourself with the experience that people with a disability might have
+when using digital products. It's important to have
+conversations with people with disabilities and immerse yourself in the assistive technology
+that they might use. Learning more about
+assistive technologies, might mean watching videos
+of experts using them. There are plenty of videos out there demonstrating just that, or you could even try an
+assistive technology yourself. Keyboard interaction models serve as a great starting point for understanding the basic
+interaction patterns of ATs. You might generally use a mouse pointer with
+your computer and not realize that there are moments when you rely
+on a keyboard instead. For example, when you're
+filling out a form like this, you might use your
+mouse to navigate to a new form field, like name. Then you might press
+"Enter" or "Return" on your keyboard to submit the form, instead of clicking
+the button with your mouse. Some people rely solely
+on the keyboard to interact with websites
+at all times. So all websites need to
+support keyboard input and navigation to comply with the requirements of the
+Americans with Disabilities Act. By doing so, you also
+enable other ATs, like switch devices, to properly interact with
+the same website. It's impossible to overstate the importance of designing
+for accessibility. UX designers empathize with
+their potential users, which includes people
+with disabilities. Coming up, we'll explore how
+designing for accessibility can end up benefiting
+everyone too. See you there.
+Hi again. Want to
+hear a fun fact? One of the first curb
+cuts in the U.S. was installed in Michigan in 1945. You've probably used
+a curb cut yourself. A curb cut is the name
+for the slope of the sidewalk that creates a ramp with the adjoining street. Curb cuts are usually
+found at intersections. Thanks to curb cuts, people with wheelchairs,
+leg braces, or crutches can navigate their neighborhoods with
+a lot more freedom. But, funny thing: The benefits of
+curb cuts extend to everyone, from people pushing
+strollers to bicyclists, movers, and elderly people. Chances are curb cuts
+have helped you, too. Curb cuts have become such a
+popular example of designing for accessibility that there's now a whole concept
+named after it. The curb-cut effect is a
+phenomenon that describes how products and policies
+designed for people with disabilities often end
+up helping everyone. Let's check out some more
+examples of this effect. Today, most crosswalks in major cities across
+the United States come equipped with signals that indicate that it's safe for
+someone to cross the street. There's a visual signal, like a symbol of
+a person walking. There's an auditory signal,
+like a series of beeps. The auditory signals
+even speed up to let people with vision disabilities
+know that their time to cross the street safely
+is ending. And there's a tactile signal, like the bumpy blister paving
+on the sidewalk's curb. The physical sensation
+of the tactile paving indicates that they've safely made it to the next sidewalk. But these signals help
+everyone. Think about a sighted person who is focused on something other
+than the cross-walk, like a new text message, the sequence of beeps and the textured ground
+designed to help people with vision disabilities will help the distracted person too. Or consider this: If you've
+ever broken your leg, you know how challenging it
+can be to do everyday things, like go down a flight of stairs. When you design features
+for someone with a permanent limited
+mobility, like elevators, power lifts, or wide aisles
+to accommodate wheelchairs, you'll end up helping an
+even broader range of users. Similarly, if you're a
+sighted person who has tried to watch a breaking news
+story on TV in a noisy bar, chances are you've been helped
+out by closed captioning. You don't have to hear the news anchor as long as
+you can read what they're saying. And since closed
+captioning is multilingual, users who aren't fluent in
+the language being spoken can understand what's being said by reading closed captioning
+in their native language. Now, let's think
+about products and services that are inaccessible. As a security measure, many websites automatically time a user out if they haven't
+been active for two minutes. However, we live
+in a world full of neurologically diverse
+people who might need more time filling out
+a form or reading text. Designing for inclusivity
+and accessibility may mean removing or
+lengthening this time window. If you do that, you will help people
+with neurodiversity, multitasking parents,
+senior citizens, and even the folks who need more time to find
+their credit cards. All these people would benefit from either removing the timer, extending the amount
+of time allowed, or a timer that
+prompts users with a visual or sound notification when their time is running low. To wrap up, let's recap
+what you've learned. As we consider the experiences of users with disabilities, we discovered how
+designing for people with disabilities can
+benefit everyone. Coming up, you'll learn how to define a
+problem statement.
+You made it. Let's recap some of the tools that help UX
+designers empathize with users. First, you started with the
+steps involved in crafting a user story based on personas
+to capture their needs. Then you learned how to use edge cases to anticipate
+potential issues for the user. Next, you learned about how user journey maps
+are used to help UX designers understand
+the challenges a user may face when trying
+to use your product. Finally, you explored the
+importance of creating an accessible and inclusive
+design experience for users. I'll meet you in the
+next part of the course, which is about the second
+phase of the design process, define. See you there.

@@ -1,0 +1,54 @@
+Hi again. You just
+learned about personas, user stories, and user journeys. I'm here to help you learn how to consider accessibility
+in each of these. Why do we need to consider
+personas, user stories, and user journeys of
+someone with a disability? Well, people with disabilities
+share the same goal for any given user problem that your design is
+trying to solve. Additionally, accessibility
+is not just designing to include a group of users
+with varying abilities. Instead, it extends to anyone who is
+experiencing a permanent, temporary, or
+situational disability. Designing with accessibility
+in mind means making sure, Betty, a user with
+only one arm; Angela, a user with a
+sprained wrist; and Juan, a user holding
+a colicky newborn, all have everything they need to stay happily on
+their user journeys. Betty's disability is permanent,
+Angela's is temporary, and Juan's is situational, but they all need to achieve their user goal
+with only one hand. You want to design products
+that can be used by everyone. As UX designers, we don't
+want to leave Betty, Angela, or Juan behind. It's critical to understand
+how a person with a disability might have a
+slightly different journey due to the fact that
+their needs may not have been addressed during
+the initial design process. Sometimes not
+addressing those needs can have serious consequences. Consider fire safety
+escape routes. Usually, people
+are advised to use the stairs to exit a
+building during a fire. But what about people who use
+wheelchairs to get around? They're not considered in those evacuation plans and maps. Accessibility should
+matter to all of us. Start familiarizing yourself with the experience that people with a disability might have
+when using digital products. It's important to have
+conversations with people with disabilities and immerse yourself in the assistive technology
+that they might use. Learning more about
+assistive technologies, might mean watching videos
+of experts using them. There are plenty of videos out there demonstrating just that, or you could even try an
+assistive technology yourself. Keyboard interaction models serve as a great starting point for understanding the basic
+interaction patterns of ATs. You might generally use a mouse pointer with
+your computer and not realize that there are moments when you rely
+on a keyboard instead. For example, when you're
+filling out a form like this, you might use your
+mouse to navigate to a new form field, like name. Then you might press
+"Enter" or "Return" on your keyboard to submit the form, instead of clicking
+the button with your mouse. Some people rely solely
+on the keyboard to interact with websites
+at all times. So all websites need to
+support keyboard input and navigation to comply with the requirements of the
+Americans with Disabilities Act. By doing so, you also
+enable other ATs, like switch devices, to properly interact with
+the same website. It's impossible to overstate the importance of designing
+for accessibility. UX designers empathize with
+their potential users, which includes people
+with disabilities. Coming up, we'll explore how
+designing for accessibility can end up benefiting
+everyone too. See you there.

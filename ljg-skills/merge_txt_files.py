@@ -59,7 +59,7 @@ def merge_txt_files(input_folder, output_file=None):
 
 if __name__ == "__main__":
     # 修改这里指定你的文件夹路径
-    folder_path = r"D:\BaiduSyncdisk\学习之旅\新建文件夹"  # 默认当前目录下的 txt_files 文件夹
+    folder_path = r"D:\BaiduSyncdisk\专业技能\fuwanqiu-ljg-learing\ljg-skills\专业门类\GoogleUX-Start the UX Design Process\Module2"  # 默认当前目录下的 txt_files 文件夹
 
     # 也可以直接指定输出文件路径，如：output_path = r".\merged_output.txt"
     output_path = None

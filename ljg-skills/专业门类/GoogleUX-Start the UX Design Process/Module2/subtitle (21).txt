@@ -1,0 +1,8 @@
+Hi there in this part of the course,
+we'll continue to explore some of the ways UX designers build empathy with users
+of the products they designed for. We'll start with user stories which
+are fictional, one sentence stories that connect the needs of a potential
+user to a specific action and benefit. After that, you'll learn about user
+journey maps, a tool used by UX designers to understand the obstacles a user
+faces while interacting with a product. Lastly, we'll explore some strategies for keeping accessibility top of mind during
+the empathize phase of the design process. So let's get started.

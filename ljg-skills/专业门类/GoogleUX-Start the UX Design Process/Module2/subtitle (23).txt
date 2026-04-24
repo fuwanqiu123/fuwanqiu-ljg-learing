@@ -1,0 +1,59 @@
+Welcome back. With user
+stories, just like any story, there's always a
+chance that things might not go exactly
+how you want them. The hero detective doesn't
+always crack the case, and your user doesn't
+always reach their goal. Luckily for your user, you can change their
+experience as a UX designer. When building a new
+or improved product, the designer's goal is to keep all users on the happy path. The happy path describes a user story with
+a happy ending. For this user,
+everything goes as they expect and they reach
+their goal without issue. Unfortunately, for other users, things don't go
+quite as smoothly. For example, let's say
+Iyla, a Londoner, wants to buy
+birthday flowers for her friend Priya in California. She visits the website of a California-based flower
+shop and gets to work designing a bouquet of Priya's favorite flowers and writing a meaningful message. Everything is going well. Iyla's on the happy path. But when Iyla asked
+to enter her address, there's a field that
+asks for her home state. Iyla doesn't have a home state, she lives in London, England. She tries to skip that field, assuming the site will let her, but the state field is
+required to proceed. She reaches a dead end
+on the happy path. After all that work, has to close the
+website and find another way to get
+flowers for her friend. In the design world
+Iyla and others like her are called
+edge case users. An edge case is a
+rare situation or unexpected problem
+that interrupts a standard user experience. Good UX anticipates
+edge cases and reroute users back to the happy path when things don't go as planned. In edge cases, the obstacle is often beyond the
+user's control to fix. Think back to Iyla
+who only wants to wish her friend in
+America a happy birthday. There is no way for her
+to skip the state field, so there is no way for
+Iyla to successfully buy Priya's flowers on
+the shop's website. Unfortunately, Iyla's
+user experience is unrepairable on her end. Let's check out some UX design
+pro tips for spotting and resolving potential edge cases before the product launches, so other users don't end
+up in Iyla's situation. Pro tip 1: create personas
+and user stories. If UX designers make sure their
+personas and user stories account for a wide variety
+of users and problems, they can keep even the most vulnerable users
+on the happy path. Pro tip 2: thoroughly review
+the project before launch. In the rush to launch a product, UX designers might focus
+only on the happy path. Giving the project a final good review from
+the user's perspective, helps designers
+identify edge cases. Pro tip 3: use wireframes. You'll learn how to
+create wireframes later. Wireframes help
+visualize the project, which makes it
+easier to identify potential user pain
+points and fix them before launch for folks who
+are not visually impaired. We all have that
+friend who always has whatever you need
+when you need it. For example, if you're
+at an amusement park having lunch and dropped
+your fork on the floor, this friend's got an
+extra fork ready to go. Need an extra pair
+of nylon footies to try on some fancy flats? They've got you covered. As a UX designer, you want to be that
+friend to all users. You want to be able to anticipate what needs
+they might have, whether they're on the
+happy path or not. Okay, so far we've gotten to know
+our users and their stories. Up next, we'll go on a
+journey. The user journey.

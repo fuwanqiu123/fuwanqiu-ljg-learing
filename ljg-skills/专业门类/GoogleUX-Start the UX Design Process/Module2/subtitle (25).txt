@@ -1,0 +1,98 @@
+Now that you've
+planned and prepared for happy paths and edge cases, let's discover what user
+journeys are all about. A user journey is the
+series of experiences a user has as they
+achieve a specific goal. User journeys built
+off the persona's and stories you've
+already created. They help you think and
+feel like the user, which is super important. If you can't put yourself
+in the user's shoes, you can't be sure your design
+will really help them. Before you start
+the user journey, you need a journey map. A journey map is just
+what it sounds like; an illustration of what the user goes through to
+achieve their goals. Think of it like reading a book. If the persona is
+your character, the user story is your plot, and the journey map is
+your story outline. First, let's do a
+little experiment. Imagine we want to drive
+to the beach for a swim. We can pull up a
+map on our phone to get an overview
+of the best route. We know our starting
+point and our end point. Let's go for a drive. So far, so good. Looks like a traffic
+jam up ahead. Luckily, the map app gives us a detour route to
+avoid the traffic. Map apps help drivers avoid
+obstacles along their route. The same idea applies
+to journey maps. A user journey map helps UX designers create obstacle
+free paths for users. That's the first benefit
+to user journey mapping. Now let's go over some more. A user journey map reduces
+the impact of designer bias, which you might remember as the tendency for the designer to design according
+to their own needs and wants instead of a user's. Creating a user journey map
+lets you thoroughly document the entire sequence
+of events and interactions a user experiences, including the user's
+interaction with your design. That way you can really focus
+on how a specific persona, not you, thinks and feels at
+every step of the journey. User journey mapping also
+highlights new pain points. For example, say your persona, Kindred, is biracial. Her user journey is spilling
+out her census info online. Everything is going well
+until it's time for Kindred to select her race
+from the drop-down menu. Suddenly she hits a roadblock. There's no option for her to identify herself as
+both Black and Asian. That's a big pain point. If you yourself aren't biracial, you might not have
+predicted this problem. But by creating the
+persona of Kindred, giving her a story
+and mapping out her journey using a
+user journey map, you're able to clearly
+identify the issue she's experiencing and
+improve the design. This brings us to the final key benefit of journey mapping. Identify improvement
+opportunities. In Kindred's example, you
+could add an option in the menu for users to write
+in their own racial identity. Or maybe you could
+add another field to the drop-down menu for
+multi-racial citizens. Improving the UX here can
+make a big difference. How do we map out
+a user journey? One action at a time. Let's say our persona, Jamal, comes from a town of 500
+people in rural Mississippi. He uses a wheelchair
+to get around and he's visiting New York
+City for the first time. Today. He wants to fulfill
+his dream of going all the way to the top of
+the Empire State Building. How do we map out his journey? To start, identify
+the first task the user needs to complete. In this case, Jamal
+needs to find a subway route that will take him to the Empire
+State Building. Next, list all the things the user needs to do
+to reach their goal. Here's a list of
+Jamal's main tasks. Task 1, determine the subway
+line and route to take. Task 2, find the nearest station with
+wheelchair accessibility. Task 3, buy a ticket. Task 4, find the right
+platform and make sure the train is headed toward the Empire State Building
+and not away from it. Task 5, board the subway. Task 6, find the right exit. The next action in mapping a
+user journey is describing all the smaller
+things the user must accomplish before graduating
+to the next main task. Here's what that might
+look like for Jamal. So that's it. You got Jamal all the way to the
+Empire State Building. Your work here is
+done. Not exactly. You've completed Jamal's
+physical journey, but you still need to consider
+his emotional journey too. The third action in mapping a
+user journey is identifying the user's likely emotions as
+they go from task to task. For example, imagine
+how Jamal might feel the first time he looks
+at the subway line map. He might be confused and
+intimidated or imagine that Jamal's purchased
+his ticket and is trying to get to
+the right platform. He can't use the stairs, so he'll need to find
+an elevator or ramp. The elevator might
+not be working, so he has to find a ramp. This experience could
+make Jamal feel overwhelmed and make
+him feel excluded. There's one final action in
+our journey mapping exercise. Once we've identified
+the user's emotions, we can then identify opportunities to improve
+his user experience. This is where user
+journey mapping can really enhance UX design. Without mapping the actions
+of Jamal's journey. It might never have
+occurred to us to add an accessibility key to the map to help users
+with wheelchairs navigate the subway
+stations more easily. Here's what a completed
+user journey map looks like for Jamal. Now you know how user journey is build off of user
+stories and personas, you also know the benefits
+of user journey maps, and you understand how
+to create a journey map. Jamal's user journey may
+have come to an end, but we've still
+got a long way to go in our UX design journey
