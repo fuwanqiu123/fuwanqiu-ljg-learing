@@ -1,0 +1,60 @@
+Welcome to psychology in design. After all our discussions about empathy
+and understanding the user, you're probably not surprised to learn that
+psychology is a big deal in UX design. Nearly everything is
+designed to fit humans, from pants pockets to electric cars. But that wasn't always the case. Believe it or not,
+it took two world wars for designers to consider what we
+now call the human factor. The human factor describes the
+range of variables humans bring to their product interactions. Before World War I, the objective
+was to fit the human to the machine. When planes started being used in war,
+that changed. Suddenly, untrained soldiers
+had to learn how to fly. Aviation psychology was introduced, and an attempt was made to mold
+the machine to fit the human. Unfortunately, in the early 1900s, the
+technology just wasn't good enough yet. During World War II, the sheer
+number of men and women needed for the war effort made it impossible to
+choose specific people for specific tasks. Aviation design had to
+consider human factors. In this case, human factors were
+the pilots' varying skill levels. If we were robots, some computer genius
+could just program us to be expert fliers. But we're only human, and not everyone
+flying a warplane was an ace pilot. To account for this human factor,
+we had to adapt the plane to the pilot. And by World War II,
+we finally had the tech to do it. So, what are some of the human
+factors that inform design? Here's a few of the most common ones: impatience, limited memory,
+needing analogies, limited concentration,
+changes in need, needing motivation, prejudices, fears,
+making errors, and misjudgment. For an example of design that
+considers these factors, all you need to do is check your email. The business email shorthand TL;DR
+has really caught on in the last couple of years. It's an acronym you might find at
+the start of a very long email. A TL;DR is a short, succinct summary
+that only gives you the email highlights you really need to know,
+without any excess content. So, what does TL;DR stand for? Too long; didn't read. The email writer factors in
+the human tendencies of impatience, limited concentration, need for
+motivation, and limited memory. Not bad for four little letters. Here are psychological concepts
+that can help you design with the human factor in mind. Mental models are internal maps that allow
+humans to predict how something will work. When you face a door, your mental model
+tells you that the door can be opened. Once the door is opened,
+you'll be able to leave the room. The process of opening the door is
+expected to end with you being able to leave the room. A mental model breaks when you can't
+go through the open door because, for example, there's a solid
+brick wall behind it. The next psychological
+concept is feedback loops. Feedback loops refer to the outcome
+a user gets at the end of a process. For example, if you enter a dark room and
+flip a light switch, the room will either brighten,
+or it won't. Positive feedback would
+be the light coming on. While negative feedback
+would be nothing happening. The more positive feedback a user
+gets when completing the action, the more they will expect
+the outcome to be positive. The same is true with negative feedback. If your user takes an action,
+it's important that they get some kind of confirmation that the action worked
+or that it didn't. In spite of all the limitations
+the human factors puts on UX designers, it also gives us opportunities to
+create even better user experiences. Sometimes a well-known brand will
+revert their product packaging back to the original design in order to
+connect to a user sense of nostalgia. For example, a potato chip company might reissue
+its classic bag design from the '80s, or a century-old soda company might create
+replicas of bottles they used decades ago. In these cases, the designer uses
+nostalgia to connect with users, something they couldn't use
+to connect with robots. When UX designers turn
+limitations into opportunities, the human factor isn't so
+limiting after all. Pretty cool, right? Coming up, we'll go through some of
+the psychological principles that act on the user's subconscious as they
+interact with the product.

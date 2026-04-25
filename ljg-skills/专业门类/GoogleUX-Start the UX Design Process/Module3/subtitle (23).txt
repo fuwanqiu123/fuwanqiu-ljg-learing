@@ -1,0 +1,35 @@
+All right, you nail down
+your problem statement. What happens next now that the problem is clearly defined? Well, think about how this
+happens in your own life. Let's say you're a
+barista who needs to find an affordable moving company because you are moving
+across the country. If this is the problem
+you're facing, you would brainstorm
+possible solutions. Brainstorming solutions
+is similar to making a hypothesis or an educated guess about how to
+solve the problem. In UX design, we write possible solutions
+to the problem as hypothesis statements. A hypothesis
+statement writes out our best educated
+guess on what we think the solution to a
+design problem might be. How do we write
+hypothesis statements? Unlike problem
+statements, there's not a standard formula to use for writing
+hypothesis statements. But to get us started, we'll try what's known as an if then statement.
+It looks like this. If, name and action, then name and outcome. Let's go back to our
+earlier example with Amal. Amal is an athlete who
+needs a way to sign up for workout classes
+because the class he wants to participate
+in fills up fast. Your hypothesis statement
+might be something like this. If Amal downloads the gym's app, then he can reserve his
+favorite class in advance. Like we said,
+hypothesis statements don't have a standard formula, so Instead of using
+an if then statement, you could also write this
+hypothesis statement as something more flexible. Like, Amal needs an app
+that allows him to reserve his favorite classes
+in advance and notifies him of the first
+opportunity to sign up. In both of these examples, we are guessing or hypothesizing what has to happen for
+Amal's need to be solved. As you move forward in
+the design process, you will revisit
+and possibly adjust your hypothesis as you learn more about
+your user's needs. Be flexible and
+adapt as you go in order to end up with the
+best design solution.

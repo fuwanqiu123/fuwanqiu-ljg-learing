@@ -1,0 +1,67 @@
+Hi again. Earlier we introduced the concept
+of the human factor. Now, let's learn about other psychological phenomena
+that can impact UX design. Sometimes the human
+factor isn't as simple as lacking concentration
+or needing motivation. Human beings can be
+pretty complicated. We're always making associations between what we think
+and what we see. For example, humans usually prefer the color red
+over the color blue. Why? A 2005 study of the Olympic Games
+might give us a clue. For one-on-one combat
+style competitions like wrestling or boxing, Olympic rules randomly
+give one athlete a blue uniform and the
+other one a red uniform. Researchers discovered
+that Olympians in red won a statistically higher portion of their matches
+than those in blue. The study attributed
+these findings to the human tendency to associate the color red with
+dominance and aggression. Because of that association, the athletes wearing
+red were thought to be in a better
+mindset for a fight. Turns out, the right outfit really can make all
+the difference. But it's not just
+color preferences that make humans so complex. Every day, whether
+we know it or not, we experience examples of
+psychological phenomena. Let's check out some that can be especially useful
+to UX designers. The first psychological
+phenomena, Von Restorff effect
+or isolation effect, states that when multiple
+similar objects are present, the one that differs from the rest is most likely
+to be remembered. Think back to the childhood
+games you used to play. Remember those
+spot-the-difference puzzles? The puzzles were
+made up of images. Maybe there'd be a
+picture of three cows. The first two cows are white with black spots and look like
+pretty generic cows. They fit a young child's
+definition of what a cow is. But cow number three
+doesn't have any spots. The Von Restorff effect tells us that the cow without spots, the unique cow, will be
+the one we remember. In UX design, this is why
+the call-to-action buttons look different from the rest of the buttons
+on a site or app; because we want
+them to stand out. In case you're not
+familiar, a call-to-action, or CTA, is a visual prompt that tells the user
+to take action. For example, the Start button on Google Maps is bright blue
+on a white background, which makes it stand out. The second psychological
+phenomena, serial position effect, says that when people are
+given a list of items, they are more likely to remember the first few and the last few, while the items in the
+middle tend to blur. This is why most applications
+and websites position the most important user
+actions toward the far right or far left of
+a top navigation bar. The third psychological
+phenomena, Hick's law, states that the more
+options a user has, the longer it takes for
+them to make a decision. We can experience
+Hick's law in action in the potato chip aisle
+of any grocery store, Rows and rows of
+different potato chips. Even if you narrow your
+choice to one brand, you still have to decide between ridge chips or
+kettle-cooked chips, sour cream and onion-flavored, or barbecue-flavored, and so on. The options are endless and so is the
+decision-making process. In other words, if the
+number of choices increases, the time to make a decision
+increases in proportion. As a UXer, you might
+think that giving your user a lot of choices
+enhances their experience. But Hick's law tells us we may be making their decisions harder. It's important for
+UX designers to use these different
+psychological principles in an ethical way. You don't want to
+exploit the user. You only want to encourage them. You don't want to
+overpower the user. You want to empower them. With a little
+psychology, creativity, and empathy, what starts as a limitation can end
+up as a benefit. Coming up next, we'll move into the ideation phase of the
+design process. See you there.

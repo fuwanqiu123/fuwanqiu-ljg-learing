@@ -1,0 +1,10 @@
+Hi again. Remember the
+design thinking process? So far we've been focused
+on the empathize phase. All of our work on
+empathizing with the user will help us
+define the problem, which is where we're at now, moving from the empathize phase
+into to the define phase. As we've discussed, design exists to solve user's problems. To start defining the design
+problem we'll need to synthesize everything
+we've learned in the empathize stage, including pain points, personas, user stories, and user journeys. Also, empathy maps
+can help us focus on the user's needs and
+problems they are experiencing. Let's get started.

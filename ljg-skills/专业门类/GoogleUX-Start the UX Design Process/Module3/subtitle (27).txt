@@ -1,0 +1,10 @@
+That's a wrap. We've
+discussed the empathize phase in detail and have now
+entered the define phase. Along the way, we learned
+how to empathize with users, build an empathy map, understand user pain
+points, explore personas, write user stories, identify
+happy paths and edge cases, discover the benefits
+of user journey maps, incorporate accessibility
+and inclusion into UX design and write problem statements, and
+hypothesis statements. Next, we'll move into the
+ideation phase. See you there.

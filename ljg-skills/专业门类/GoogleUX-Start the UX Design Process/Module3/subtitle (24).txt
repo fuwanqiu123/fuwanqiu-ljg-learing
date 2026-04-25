@@ -1,0 +1,40 @@
+Hi there, you've just spent some time
+learning about problem statements and hypothesis statements, and you've created some to connect
+to the needs of your users. Now that you've had some time to
+think about what your users need, it's important to start thinking about
+how your product meets those needs. This is known as a value proposition. A value proposition is the reason why
+a consumer should use a product or a service. You can think of this statement as
+the reason users will be interested and willing to engage with your product. Value propositions ensure that users
+have a reason to use the product that you are creating, as opposed to any
+other product currently available. As you think about the value
+proposition for your first project, your first step should be to answer
+these two important questions. What does your product do? And why should the user care? Once you answer these questions, you can start thinking about all
+the amazing things that your app will do. You should avoid thinking about
+implementation at this stage, let your imagination run free. Let's take a look at the gym app,
+we've been discussing in this course. We know that this gym app needs to
+have a list of classes for users and the ability to sign up for those classes. Here are a few other things
+that our app could do. Easy access to book private trainers. Reservations for popular machines. Make music requests in the gym. On-demand videos for in-home exercises. Sign up for workout classes. Track workouts on the app
+via fitness devices. Now, that you have a list of
+possible features for the app, you can sort these
+features into a category. Let's go back to our earlier
+example with Amal. Amal is an athlete who needs a way
+to sign up for workout classes, because the class he wants to
+participate in fills up fast. Our main focus right now is helping
+users like Amal, plan visits to the gym. Let's take a look at our
+list with Amal in mind and cross out those features
+that don't fit his needs. That leaves us with the following
+value propositions. Easy access to book private trainers,
+reservations for popular machines,
+sign up for workout classes. And those are our value propositions for
+the gym app. Having more categories and users allows you to tailor each value
+proposition to the user's needs. We know Amal's main focus is
+on booking a workout class. So that would be the value
+proposition that speaks to his needs. Let's suppose that Leela is currently
+looking for a gym membership. She wants to be in and
+out of the gym within an hour, so she can make her daily
+visit to see her mother. What appeals to Leela is the ability
+to reserve a machine and get the exact workout she
+wants on her schedule. For users on a tight schedule, like Leela,
+popular machine reservations are crucial. Now that you have a deeper understanding
+of how to build value propositions and how they affect users. It's time to start thinking about
+the value propositions for your app.

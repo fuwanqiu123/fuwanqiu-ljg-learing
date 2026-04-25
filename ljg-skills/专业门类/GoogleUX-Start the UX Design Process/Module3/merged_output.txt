@@ -1,0 +1,254 @@
+Hi again. Remember the
+design thinking process? So far we've been focused
+on the empathize phase. All of our work on
+empathizing with the user will help us
+define the problem, which is where we're at now, moving from the empathize phase
+into to the define phase. As we've discussed, design exists to solve user's problems. To start defining the design
+problem we'll need to synthesize everything
+we've learned in the empathize stage, including pain points, personas, user stories, and user journeys. Also, empathy maps
+can help us focus on the user's needs and
+problems they are experiencing. Let's get started.
+It's the moment
+we've been waiting for, drumroll, please. We're ready to write
+a problem statement. A problem statement is
+a clear description of the user's needs that
+should be addressed. Problem statements
+align the team on which user
+problem to focus on, giving everyone a clear goal. A strong problem statement
+is human-centered. It should be broad enough to allow for some creative freedom, but narrow enough
+that it can actually be solved by a design solution. Problem statements can be
+written using a simple formula. Start with the name of the user. Add a short description of
+the user's characteristics. Clearly describe the user's need and explain why the
+user has that need. In other words, an
+insight about the user. For example, Amal is
+the name of the user. His user characteristic
+is that he's an athlete. His user need is that he wants to sign up for a workout class, and the insight or why he has the need is that the workout classes are
+filling up quickly. What can we learn from an
+effective problem statement? First, problem statements
+help us establish goals. An effective problem statement tells you what the
+user really needs. Defining the goal clearly
+and concisely gets everyone on the design team onboard and focused
+on the same thing. Second, problem statements help us understand constraints. We want to know what's keeping users from satisfying
+their needs. Third, problem statements
+help us define deliverables. When we finally
+solve the problem, what will we have
+to show for it? It's helpful to know what
+our solution will produce. Finally, problem
+statements help us create benchmarks for success. How will we know
+when we succeed? If your goal is to open
+a door, for example, you'll know you've
+succeeded when you can see what's behind the door. Most design problems will be more complicated
+than opening a door, but the benchmark for success should be just
+as straightforward.
+All right, you nail down
+your problem statement. What happens next now that the problem is clearly defined? Well, think about how this
+happens in your own life. Let's say you're a
+barista who needs to find an affordable moving company because you are moving
+across the country. If this is the problem
+you're facing, you would brainstorm
+possible solutions. Brainstorming solutions
+is similar to making a hypothesis or an educated guess about how to
+solve the problem. In UX design, we write possible solutions
+to the problem as hypothesis statements. A hypothesis
+statement writes out our best educated
+guess on what we think the solution to a
+design problem might be. How do we write
+hypothesis statements? Unlike problem
+statements, there's not a standard formula to use for writing
+hypothesis statements. But to get us started, we'll try what's known as an if then statement.
+It looks like this. If, name and action, then name and outcome. Let's go back to our
+earlier example with Amal. Amal is an athlete who
+needs a way to sign up for workout classes
+because the class he wants to participate
+in fills up fast. Your hypothesis statement
+might be something like this. If Amal downloads the gym's app, then he can reserve his
+favorite class in advance. Like we said,
+hypothesis statements don't have a standard formula, so Instead of using
+an if then statement, you could also write this
+hypothesis statement as something more flexible. Like, Amal needs an app
+that allows him to reserve his favorite classes
+in advance and notifies him of the first
+opportunity to sign up. In both of these examples, we are guessing or hypothesizing what has to happen for
+Amal's need to be solved. As you move forward in
+the design process, you will revisit
+and possibly adjust your hypothesis as you learn more about
+your user's needs. Be flexible and
+adapt as you go in order to end up with the
+best design solution.
+Hi there, you've just spent some time
+learning about problem statements and hypothesis statements, and you've created some to connect
+to the needs of your users. Now that you've had some time to
+think about what your users need, it's important to start thinking about
+how your product meets those needs. This is known as a value proposition. A value proposition is the reason why
+a consumer should use a product or a service. You can think of this statement as
+the reason users will be interested and willing to engage with your product. Value propositions ensure that users
+have a reason to use the product that you are creating, as opposed to any
+other product currently available. As you think about the value
+proposition for your first project, your first step should be to answer
+these two important questions. What does your product do? And why should the user care? Once you answer these questions, you can start thinking about all
+the amazing things that your app will do. You should avoid thinking about
+implementation at this stage, let your imagination run free. Let's take a look at the gym app,
+we've been discussing in this course. We know that this gym app needs to
+have a list of classes for users and the ability to sign up for those classes. Here are a few other things
+that our app could do. Easy access to book private trainers. Reservations for popular machines. Make music requests in the gym. On-demand videos for in-home exercises. Sign up for workout classes. Track workouts on the app
+via fitness devices. Now, that you have a list of
+possible features for the app, you can sort these
+features into a category. Let's go back to our earlier
+example with Amal. Amal is an athlete who needs a way
+to sign up for workout classes, because the class he wants to
+participate in fills up fast. Our main focus right now is helping
+users like Amal, plan visits to the gym. Let's take a look at our
+list with Amal in mind and cross out those features
+that don't fit his needs. That leaves us with the following
+value propositions. Easy access to book private trainers,
+reservations for popular machines,
+sign up for workout classes. And those are our value propositions for
+the gym app. Having more categories and users allows you to tailor each value
+proposition to the user's needs. We know Amal's main focus is
+on booking a workout class. So that would be the value
+proposition that speaks to his needs. Let's suppose that Leela is currently
+looking for a gym membership. She wants to be in and
+out of the gym within an hour, so she can make her daily
+visit to see her mother. What appeals to Leela is the ability
+to reserve a machine and get the exact workout she
+wants on her schedule. For users on a tight schedule, like Leela,
+popular machine reservations are crucial. Now that you have a deeper understanding
+of how to build value propositions and how they affect users. It's time to start thinking about
+the value propositions for your app.
+Welcome to psychology in design. After all our discussions about empathy
+and understanding the user, you're probably not surprised to learn that
+psychology is a big deal in UX design. Nearly everything is
+designed to fit humans, from pants pockets to electric cars. But that wasn't always the case. Believe it or not,
+it took two world wars for designers to consider what we
+now call the human factor. The human factor describes the
+range of variables humans bring to their product interactions. Before World War I, the objective
+was to fit the human to the machine. When planes started being used in war,
+that changed. Suddenly, untrained soldiers
+had to learn how to fly. Aviation psychology was introduced, and an attempt was made to mold
+the machine to fit the human. Unfortunately, in the early 1900s, the
+technology just wasn't good enough yet. During World War II, the sheer
+number of men and women needed for the war effort made it impossible to
+choose specific people for specific tasks. Aviation design had to
+consider human factors. In this case, human factors were
+the pilots' varying skill levels. If we were robots, some computer genius
+could just program us to be expert fliers. But we're only human, and not everyone
+flying a warplane was an ace pilot. To account for this human factor,
+we had to adapt the plane to the pilot. And by World War II,
+we finally had the tech to do it. So, what are some of the human
+factors that inform design? Here's a few of the most common ones: impatience, limited memory,
+needing analogies, limited concentration,
+changes in need, needing motivation, prejudices, fears,
+making errors, and misjudgment. For an example of design that
+considers these factors, all you need to do is check your email. The business email shorthand TL;DR
+has really caught on in the last couple of years. It's an acronym you might find at
+the start of a very long email. A TL;DR is a short, succinct summary
+that only gives you the email highlights you really need to know,
+without any excess content. So, what does TL;DR stand for? Too long; didn't read. The email writer factors in
+the human tendencies of impatience, limited concentration, need for
+motivation, and limited memory. Not bad for four little letters. Here are psychological concepts
+that can help you design with the human factor in mind. Mental models are internal maps that allow
+humans to predict how something will work. When you face a door, your mental model
+tells you that the door can be opened. Once the door is opened,
+you'll be able to leave the room. The process of opening the door is
+expected to end with you being able to leave the room. A mental model breaks when you can't
+go through the open door because, for example, there's a solid
+brick wall behind it. The next psychological
+concept is feedback loops. Feedback loops refer to the outcome
+a user gets at the end of a process. For example, if you enter a dark room and
+flip a light switch, the room will either brighten,
+or it won't. Positive feedback would
+be the light coming on. While negative feedback
+would be nothing happening. The more positive feedback a user
+gets when completing the action, the more they will expect
+the outcome to be positive. The same is true with negative feedback. If your user takes an action,
+it's important that they get some kind of confirmation that the action worked
+or that it didn't. In spite of all the limitations
+the human factors puts on UX designers, it also gives us opportunities to
+create even better user experiences. Sometimes a well-known brand will
+revert their product packaging back to the original design in order to
+connect to a user sense of nostalgia. For example, a potato chip company might reissue
+its classic bag design from the '80s, or a century-old soda company might create
+replicas of bottles they used decades ago. In these cases, the designer uses
+nostalgia to connect with users, something they couldn't use
+to connect with robots. When UX designers turn
+limitations into opportunities, the human factor isn't so
+limiting after all. Pretty cool, right? Coming up, we'll go through some of
+the psychological principles that act on the user's subconscious as they
+interact with the product.
+Hi again. Earlier we introduced the concept
+of the human factor. Now, let's learn about other psychological phenomena
+that can impact UX design. Sometimes the human
+factor isn't as simple as lacking concentration
+or needing motivation. Human beings can be
+pretty complicated. We're always making associations between what we think
+and what we see. For example, humans usually prefer the color red
+over the color blue. Why? A 2005 study of the Olympic Games
+might give us a clue. For one-on-one combat
+style competitions like wrestling or boxing, Olympic rules randomly
+give one athlete a blue uniform and the
+other one a red uniform. Researchers discovered
+that Olympians in red won a statistically higher portion of their matches
+than those in blue. The study attributed
+these findings to the human tendency to associate the color red with
+dominance and aggression. Because of that association, the athletes wearing
+red were thought to be in a better
+mindset for a fight. Turns out, the right outfit really can make all
+the difference. But it's not just
+color preferences that make humans so complex. Every day, whether
+we know it or not, we experience examples of
+psychological phenomena. Let's check out some that can be especially useful
+to UX designers. The first psychological
+phenomena, Von Restorff effect
+or isolation effect, states that when multiple
+similar objects are present, the one that differs from the rest is most likely
+to be remembered. Think back to the childhood
+games you used to play. Remember those
+spot-the-difference puzzles? The puzzles were
+made up of images. Maybe there'd be a
+picture of three cows. The first two cows are white with black spots and look like
+pretty generic cows. They fit a young child's
+definition of what a cow is. But cow number three
+doesn't have any spots. The Von Restorff effect tells us that the cow without spots, the unique cow, will be
+the one we remember. In UX design, this is why
+the call-to-action buttons look different from the rest of the buttons
+on a site or app; because we want
+them to stand out. In case you're not
+familiar, a call-to-action, or CTA, is a visual prompt that tells the user
+to take action. For example, the Start button on Google Maps is bright blue
+on a white background, which makes it stand out. The second psychological
+phenomena, serial position effect, says that when people are
+given a list of items, they are more likely to remember the first few and the last few, while the items in the
+middle tend to blur. This is why most applications
+and websites position the most important user
+actions toward the far right or far left of
+a top navigation bar. The third psychological
+phenomena, Hick's law, states that the more
+options a user has, the longer it takes for
+them to make a decision. We can experience
+Hick's law in action in the potato chip aisle
+of any grocery store, Rows and rows of
+different potato chips. Even if you narrow your
+choice to one brand, you still have to decide between ridge chips or
+kettle-cooked chips, sour cream and onion-flavored, or barbecue-flavored, and so on. The options are endless and so is the
+decision-making process. In other words, if the
+number of choices increases, the time to make a decision
+increases in proportion. As a UXer, you might
+think that giving your user a lot of choices
+enhances their experience. But Hick's law tells us we may be making their decisions harder. It's important for
+UX designers to use these different
+psychological principles in an ethical way. You don't want to
+exploit the user. You only want to encourage them. You don't want to
+overpower the user. You want to empower them. With a little
+psychology, creativity, and empathy, what starts as a limitation can end
+up as a benefit. Coming up next, we'll move into the ideation phase of the
+design process. See you there.
+That's a wrap. We've
+discussed the empathize phase in detail and have now
+entered the define phase. Along the way, we learned
+how to empathize with users, build an empathy map, understand user pain
+points, explore personas, write user stories, identify
+happy paths and edge cases, discover the benefits
+of user journey maps, incorporate accessibility
+and inclusion into UX design and write problem statements, and
+hypothesis statements. Next, we'll move into the
+ideation phase. See you there.
