@@ -1,11 +1,3 @@
-#+title:      paper-UX设计想点子方法论
-#+date:       [2026-05-31 Sun 11:03]
-#+filetags:   :paper:
-#+identifier: 20260531T110301
-#+source:     Google UX Design Course - Module 4 Transcript (Coursera)
-#+authors:    Google UX Design Team, Karen, Craig, Vanessa
-#+venue:      Coursera / Google UX Design Certificate, 2021
-
 * 定位：它在解决什么？
 
 做设计的人常犯一个错：刚听完用户诉苦，就急着画界面。结果要么点子太少，要么做出来的东西用户根本不买账。Google 这门课第四模块解决的就是这个——怎么从"听懂用户"平稳过渡到"想出一大堆解法"，而且保证这些解法既对用户有用、又能让生意活下去。
