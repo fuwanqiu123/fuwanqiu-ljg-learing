@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>北京市汛期房屋安全监测指挥中心</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- ECharts -->
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+  <!-- FontAwesome 图标 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <style>
+    /* =========================================================
+       全局变量 & 基础样式
+       ========================================================= */
+    :root {
+      --bg-primary: #0a1628;
+      --bg-panel: rgba(16, 36, 62, 0.72);
+      --border-panel: rgba(0, 212, 255, 0.22);
+      --primary: #00d4ff;
+      --danger: #ff3b3b;
+      --warning: #ff9f0a;
+      --success: #00e676;
+      --text-main: #e0f2fe;
+      --text-muted: #8daac8;
+      --up: #ff4d4f;   /* 恶化/上涨 */
+      --down: #00e676; /* 好转/下跌 */
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: var(--bg-primary);
+      color: var(--text-main);
+      font-family: "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    /* 科技背景网格 + 径向渐变 */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(circle at 50% 30%, rgba(0, 212, 255, 0.08), transparent 55%),
+        linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+      background-size: 100% 100%, 40px 40px, 40px 40px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* 自适应容器：按 1920×1080 设计，等比缩放 */
+    #app {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      transform-origin: 0 0;
+      z-index: 1;
+    }
+
+    /* 面板通用样式 */
+    .panel {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-panel);
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 212, 255, 0.06) inset;
+      backdrop-filter: blur(6px);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .panel::before, .panel::after {
+      content: "";
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      border: 2px solid var(--primary);
+      opacity: 0.6;
+    }
+    .panel::before { top: 0; left: 0; border-right: 0; border-bottom: 0; }
+    .panel::after  { bottom: 0; right: 0; border-left: 0; border-top: 0; }
+
+    .panel-title {
+      position: absolute;
+      top: 12px;
+      left: 16px;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--primary);
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .panel-title::before {
+      content: "";
+      width: 4px;
+      height: 14px;
+      background: var(--primary);
+      border-radius: 2px;
+    }
+
+    /* 数字闪烁动画 */
+    @keyframes flashNumber {
+      0%   { color: #ffffff; text-shadow: 0 0 12px var(--primary); }
+      100% { color: inherit; text-shadow: none; }
+    }
+    .flash-up { animation: flashNumber 0.6s ease-out; color: var(--up) !important; }
+    .flash-down { animation: flashNumber 0.6s ease-out; color: var(--down) !important; }
+
+    /* 呼吸灯 */
+    @keyframes breathe {
+      0%, 100% { opacity: 1; box-shadow: 0 0 6px currentColor; }
+      50% { opacity: 0.5; box-shadow: 0 0 2px currentColor; }
+    }
+    .breathing-dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: currentColor;
+      animation: breathe 1.6s ease-in-out infinite;
+    }
+
+    /* 跑马灯 */
+    .marquee-wrap {
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+    }
+    .marquee-track {
+      display: inline-block;
+      animation: marquee 40s linear infinite;
+    }
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* 预警列表滚动动画 */
+    .warning-list {
+      position: relative;
+      overflow: hidden;
+    }
+    .warning-item {
+      transition: all 0.4s ease;
+    }
+    .warning-item.new {
+      animation: highlightIn 1.2s ease forwards;
+    }
+    @keyframes highlightIn {
+      0% { background: rgba(0, 212, 255, 0.25); }
+      100% { background: transparent; }
+    }
+
+    /* 弹窗遮罩 */
+    #modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.7);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+    #modal-overlay.active { display: flex; }
+
+    /* 应急模式样式 */
+    body.emergency {
+      --bg-primary: #1a0505;
+      --bg-panel: rgba(48, 12, 12, 0.78);
+      --border-panel: rgba(255, 59, 59, 0.35);
+      --primary: #ff3b3b;
+    }
+    body.emergency #alert-banner {
+      display: block;
+      animation: bannerBlink 0.9s ease-in-out infinite;
+    }
+    @keyframes bannerBlink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.55; }
+    }
+    #alert-banner {
+      display: none;
+    }
+
+    /* 地图分区块 */
+    .map-zone {
+      cursor: pointer;
+      transition: fill 0.3s ease, filter 0.3s ease;
+    }
+    .map-zone:hover {
+      filter: brightness(1.2) drop-shadow(0 0 8px rgba(0, 212, 255, 0.6));
+    }
+
+    /* 自定义滚动条 */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: rgba(0, 212, 255, 0.05); }
+    ::-webkit-scrollbar-thumb { background: rgba(0, 212, 255, 0.25); border-radius: 3px; }
+
+    /* 开关 */
+    .toggle-switch {
+      appearance: none;
+      width: 44px;
+      height: 24px;
+      background: rgba(255,255,255,0.15);
+      border-radius: 12px;
+      position: relative;
+      cursor: pointer;
+      outline: none;
+      transition: 0.3s;
+    }
+    .toggle-switch::after {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #fff;
+      transition: 0.3s;
+    }
+    .toggle-switch:checked { background: var(--danger); }
+    .toggle-switch:checked::after { left: 22px; }
+  </style>
+</head>
+<body>
+  <!-- 应急模式顶部横幅 -->
+  <div id="alert-banner" class="fixed top-0 left-0 w-full z-50 bg-red-600 text-white text-center py-2 text-lg font-bold tracking-widest">
+    <i class="fas fa-exclamation-triangle mr-3"></i>红色暴雨预警 · 全市进入Ⅰ级应急响应 · 请立即组织危险房屋人员转移
+  </div>
+
+  <!-- 详情弹窗 -->
+  <div id="modal-overlay" onclick="closeModal(event)">
+    <div class="panel w-[640px] p-6 text-white" style="background: rgba(12,28,48,0.95); border: 1px solid rgba(0,212,255,0.4);" onclick="event.stopPropagation()">
+      <div class="flex justify-between items-center mb-4">
+        <h2 id="modal-title" class="text-xl font-bold text-[var(--primary)]"></h2>
+        <button onclick="closeModal()" class="text-2xl text-gray-400 hover:text-white">&times;</button>
+      </div>
+      <div class="grid grid-cols-2 gap-4 text-sm mb-4">
+        <div><span class="text-[var(--text-muted)]">所属区域：</span><span id="modal-district"></span></div>
+        <div><span class="text-[var(--text-muted)]">风险等级：</span><span id="modal-level"></span></div>
+        <div><span class="text-[var(--text-muted)]">鉴定等级：</span><span id="modal-grade"></span></div>
+        <div><span class="text-[var(--text-muted)]">建筑年代：</span><span id="modal-year"></span></div>
+        <div><span class="text-[var(--text-muted)]">结构类型：</span><span id="modal-structure"></span></div>
+        <div><span class="text-[var(--text-muted)]">居住人数：</span><span id="modal-people"></span></div>
+      </div>
+      <div class="mb-3">
+        <span class="text-[var(--text-muted)] text-sm">风险描述：</span>
+        <p id="modal-desc" class="text-sm mt-1 leading-relaxed"></p>
+      </div>
+      <div class="mb-3">
+        <span class="text-[var(--text-muted)] text-sm">历史巡查记录：</span>
+        <ul id="modal-history" class="text-sm mt-1 list-disc pl-5 space-y-1"></ul>
+      </div>
+      <div class="border-t border-[rgba(0,212,255,0.2)] pt-3 mt-3">
+        <span class="text-[var(--text-muted)] text-sm">责任人：</span>
+        <span id="modal-person" class="text-sm mr-6"></span>
+        <span class="text-[var(--text-muted)] text-sm">联系电话：</span>
+        <span id="modal-phone" class="text-sm font-mono text-[var(--primary)]"></span>
+      </div>
+    </div>
+  </div>
+
+  <div id="app" class="p-4 flex flex-col">
+    <!-- ========================== 顶部标题栏 ========================== -->
+    <header class="h-[72px] mb-4 flex items-center justify-between relative">
+      <div class="absolute inset-x-0 bottom-0 h-[1px] bg-gradient-to-r from-transparent via-[var(--primary)] to-transparent opacity-60"></div>
+
+      <!-- 左侧时间 -->
+      <div class="w-[340px] pl-2 flex flex-col justify-center">
+        <div id="clock-date" class="text-[var(--text-muted)] text-sm tracking-wide"></div>
+        <div id="clock-time" class="text-2xl font-mono font-bold text-[var(--primary)] tracking-widest"></div>
+      </div>
+
+      <!-- 居中标题 -->
+      <div class="flex-1 text-center">
+        <h1 class="text-[34px] font-black tracking-[3px] text-transparent bg-clip-text bg-gradient-to-b from-[#e0f2fe] to-[#00d4ff] drop-shadow-[0_0_10px_rgba(0,212,255,0.5)]">
+          北京市汛期房屋安全监测指挥中心
+        </h1>
+      </div>
+
+      <!-- 右侧状态 -->
+      <div class="w-[340px] pr-2 flex items-center justify-end gap-6">
+        <div class="flex items-center gap-2 text-[var(--danger)] font-bold">
+          <span class="breathing-dot text-[var(--danger)]"></span>
+          <span id="response-level">Ⅲ级应急响应</span>
+        </div>
+        <div class="flex items-center gap-2 text-[var(--text-main)]">
+          <i id="weather-icon" class="fas fa-cloud-showers-heavy text-[var(--primary)] text-xl"></i>
+          <span id="weather-temp">24°C</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="text-xs text-[var(--text-muted)]">应急模式</span>
+          <input type="checkbox" class="toggle-switch" id="emergency-toggle" onchange="toggleEmergency()">
+        </div>
+      </div>
+    </header>
+
+    <!-- ========================== 核心指标条 ========================== -->
+    <section id="kpi-bar" class="h-[120px] mb-4 grid grid-cols-6 gap-4">
+      <!-- 由 JS 生成 -->
+    </section>
+
+    <!-- ========================== 中部主区域 ========================== -->
+    <main class="flex-1 grid grid-cols-12 gap-4 mb-4 min-h-0">
+      <!-- 左侧栏 -->
+      <aside class="col-span-3 flex flex-col gap-4 min-h-0">
+        <div class="panel flex-1">
+          <div class="panel-title">各区风险分布</div>
+          <div id="chart-district" class="w-full h-full pt-9"></div>
+        </div>
+        <div class="panel flex-1">
+          <div class="panel-title">房屋结构类型占比</div>
+          <div id="chart-structure" class="w-full h-full pt-9"></div>
+        </div>
+      </aside>
+
+      <!-- 中间栏 -->
+      <section class="col-span-6 flex flex-col gap-4 min-h-0">
+        <div class="panel flex-[1.4] relative">
+          <div class="panel-title">北京市风险态势图</div>
+          <div id="map-wrap" class="w-full h-full pt-9">
+            <!-- SVG 地图 -->
+            <svg id="beijing-map" viewBox="0 0 600 520" class="w-full h-full" preserveAspectRatio="xMidYMid meet"></svg>
+          </div>
+          <div class="absolute bottom-3 right-3 flex flex-col gap-2 text-xs bg-[rgba(0,0,0,0.4)] p-2 rounded border border-[rgba(0,212,255,0.15)]">
+            <div class="flex items-center gap-2"><span class="w-3 h-3 rounded-sm bg-[#ff3b3b]"></span>高风险</div>
+            <div class="flex items-center gap-2"><span class="w-3 h-3 rounded-sm bg-[#ff9f0a]"></span>中风险</div>
+            <div class="flex items-center gap-2"><span class="w-3 h-3 rounded-sm bg-[#00d4ff]"></span>低风险</div>
+          </div>
+        </div>
+        <div class="panel flex-1">
+          <div class="panel-title">今日预警与处置分时走势</div>
+          <div id="chart-trend" class="w-full h-full pt-9"></div>
+        </div>
+      </section>
+
+      <!-- 右侧栏 -->
+      <aside class="col-span-3 flex flex-col gap-4 min-h-0">
+        <div class="panel flex-[1.2] flex flex-col">
+          <div class="panel-title">实时预警列表</div>
+          <div id="warning-list" class="warning-list flex-1 mt-9 mx-2 mb-2 overflow-hidden text-sm">
+            <!-- 由 JS 生成 -->
+          </div>
+        </div>
+        <div class="panel flex-1">
+          <div class="panel-title">处置进度 TOP 榜</div>
+          <div id="chart-top" class="w-full h-full pt-9"></div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- ========================== 底部跑马灯 ========================== -->
+    <footer class="h-[42px] panel flex items-center overflow-hidden">
+      <div class="marquee-wrap w-full h-full flex items-center">
+        <div id="marquee-track" class="marquee-track text-sm font-mono">
+          <!-- 由 JS 生成 -->
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    /* =========================================================
+       数据与配置
+       ========================================================= */
+    const districts = ["东城区","西城区","朝阳区","丰台区","石景山区","海淀区","门头沟区","房山区","通州区","顺义区","昌平区","大兴区","怀柔区","平谷区","密云区","延庆区"];
+
+    // 各区风险数据（初始 mock）
+    let districtData = districts.map(name => ({
+      name,
+      d: Math.floor(Math.random() * 60) + 5,
+      c: Math.floor(Math.random() * 120) + 20,
+      warning: Math.floor(Math.random() * 15),
+      handleRate: +(Math.random() * 40 + 50).toFixed(1),
+      riskLevel: Math.random() > 0.7 ? 3 : (Math.random() > 0.4 ? 2 : 1)
+    }));
+
+    // KPI 初始数据
+    const kpiConfig = [
+      { key: "total",  label: "在册危房数",   value: 3842,  ratio: 2.3 },
+      { key: "c",      label: "C级危房",      value: 2156,  ratio: -1.2 },
+      { key: "d",      label: "D级危房",      value: 1686,  ratio: 3.8 },
+      { key: "new",    label: "今日新增预警", value: 47,    ratio: 12.5 },
+      { key: "patrol", label: "巡查完成率",   value: 86.4,  ratio: 4.2, isPercent: true },
+      { key: "todo",   label: "待处置工单",   value: 128,   ratio: -5.6 }
+    ];
+
+    // 结构类型占比
+    const structureData = [
+      { name: "砖混结构", value: 45 },
+      { name: "砖木结构", value: 28 },
+      { name: "钢结构",   value: 15 },
+      { name: "其他",     value: 12 }
+    ];
+
+    // 街道 TOP 榜
+    const streets = ["丰台街道","劲松街道","中关村街道","古城街道","西罗园街道","东直门街道","回龙观街道","果园街道","城关街道","龙山街道"];
+    let topData = streets.map((s, i) => ({ name: s, value: +(Math.random() * 30 + 60).toFixed(1), prev: i }));
+
+    // 预警列表
+    const riskTypes = ["积水倒灌","结构开裂","地基沉降","山体滑坡威胁"];
+    const riskLevels = ["红色","橙色","黄色"];
+    const levelColor = { "红色": "#ff3b3b", "橙色": "#ff9f0a", "黄色": "#ffd600" };
+    const levelTagClass = { "红色": "bg-red-600", "橙色": "bg-orange-500", "黄色": "bg-yellow-500" };
+
+    let warnings = [];
+    for (let i = 0; i < 6; i++) addWarning(i !== 0);
+
+    // 跑马灯
+    const marqueeMsgs = [
+      { type: "red", text: "【红色预警】丰台区西罗园街道马家堡东路12号·D级危房·已封控人员已转移" },
+      { type: "green", text: "【处置完成】朝阳区劲松社区地下室积水点·抽排完毕" },
+      { type: "blue", text: "【巡查上报】海淀区中关村路简易楼·外墙开裂待鉴定" },
+      { type: "red", text: "【红色预警】门头沟区城子街道三家店中街9号·山洪威胁·人员转移中" },
+      { type: "green", text: "【处置完成】昌平区回龙观街道龙泽苑东区·雨水篦子疏通完成" },
+      { type: "blue", text: "【巡查上报】石景山区古城街道老山南路·平房院落积水约15cm" },
+      { type: "orange", text: "【橙色预警】房山区城关街道北大街33号·C级危房·持续监测" },
+      { type: "green", text: "【处置完成】大兴区西红门街道兴海家园·地下车库入口防汛沙袋已码放" }
+    ];
+
+    // 分时走势数据
+    const trendData = {
+      times: [],
+      new: [],
+      done: []
+    };
+    const now = new Date();
+    for (let i = 0; i < 30; i++) {
+      const t = new Date(now.getTime() - (29 - i) * 5 * 60 * 1000);
+      trendData.times.push(`${String(t.getHours()).padStart(2,"0")}:${String(t.getMinutes()).padStart(2,"0")}`);
+      trendData.new.push(Math.floor(Math.random() * 8));
+      trendData.done.push(Math.floor(Math.random() * 6));
+    }
+
+    /* =========================================================
+       初始化图表实例
+       ========================================================= */
+    const chartDistrict = echarts.init(document.getElementById('chart-district'));
+    const chartStructure = echarts.init(document.getElementById('chart-structure'));
+    const chartTrend = echarts.init(document.getElementById('chart-trend'));
+    const chartTop = echarts.init(document.getElementById('chart-top'));
+
+    /* =========================================================
+       辅助函数
+       ========================================================= */
+    function formatNumber(n) {
+      return n.toLocaleString('zh-CN');
+    }
+
+    function getRiskColor(level) {
+      return level === 3 ? '#ff3b3b' : level === 2 ? '#ff9f0a' : '#00d4ff';
+    }
+
+    // 生成随机数波动
+    function fluctuate(value, range, min = 0, isFloat = false) {
+      const delta = (Math.random() - 0.5) * 2 * range;
+      let nv = value + delta;
+      if (nv < min) nv = min;
+      return isFloat ? +nv.toFixed(1) : Math.floor(nv);
+    }
+
+    // 倒计时滚动动画
+    function animateNumber(element, start, end, duration = 600, isPercent = false) {
+      const startTime = performance.now();
+      function step(now) {
+        const p = Math.min((now - startTime) / duration, 1);
+        const ease = 1 - Math.pow(1 - p, 3);
+        const val = start + (end - start) * ease;
+        element.textContent = isPercent ? val.toFixed(1) + '%' : formatNumber(Math.floor(val));
+        if (p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+
+    // 天气图标
+    const weatherIcons = ['fa-cloud-showers-heavy','fa-cloud-rain','fa-bolt','fa-cloud','fa-snowflake'];
+
+    /* =========================================================
+       顶部时间
+       ========================================================= */
+    function updateClock() {
+      const d = new Date();
+      document.getElementById('clock-date').textContent = d.toLocaleDateString('zh-CN', { year:'numeric', month:'2-digit', day:'2-digit', weekday:'long' });
+      document.getElementById('clock-time').textContent = d.toLocaleTimeString('zh-CN', { hour12: false });
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+
+    /* =========================================================
+       核心指标条
+       ========================================================= */
+    function renderKPI() {
+      const container = document.getElementById('kpi-bar');
+      container.innerHTML = kpiConfig.map((k, i) => {
+        const up = k.ratio > 0;
+        const color = up ? 'var(--up)' : 'var(--down)';
+        const arrow = up ? '↑' : '↓';
+        return `
+          <div class="panel flex flex-col justify-center items-center relative">
+            <div class="text-[var(--text-muted)] text-sm mb-1">${k.label}</div>
+            <div class="text-4xl font-black font-mono tracking-wide" id="kpi-${i}">${k.isPercent ? k.value.toFixed(1) + '%' : formatNumber(k.value)}</div>
+            <div class="text-sm font-mono mt-1 flex items-center gap-1" style="color:${color}">
+              <span>${arrow}</span>
+              <span id="kpi-ratio-${i}">${Math.abs(k.ratio).toFixed(1)}%</span>
+              <span class="text-xs" style="color:var(--text-muted)">环比</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+    renderKPI();
+
+    // KPI 定时刷新（2~5秒随机）
+    function refreshKPI() {
+      kpiConfig.forEach((k, i) => {
+        const el = document.getElementById(`kpi-${i}`);
+        const oldVal = k.value;
+        let range = k.isPercent ? 0.5 : (k.key === 'new' ? 3 : 15);
+        let newVal = fluctuate(k.value, range, k.isPercent ? 0 : 0, k.isPercent);
+        if (k.isPercent && newVal > 100) newVal = 100;
+        k.value = newVal;
+        k.ratio = fluctuate(k.ratio, 1.5, -20, true);
+
+        // 数字变化动画
+        animateNumber(el, oldVal, newVal, 600, k.isPercent);
+
+        // 比率颜色与箭头
+        const ratioEl = document.getElementById(`kpi-ratio-${i}`);
+        const up = k.ratio > 0;
+        ratioEl.parentElement.style.color = up ? 'var(--up)' : 'var(--down)';
+        ratioEl.parentElement.innerHTML = `<span>${up ? '↑' : '↓'}</span><span id="kpi-ratio-${i}">${Math.abs(k.ratio).toFixed(1)}%</span><span class="text-xs" style="color:var(--text-muted)">环比</span>`;
+
+        // 高亮闪烁
+        el.classList.remove('flash-up', 'flash-down');
+        void el.offsetWidth; // 强制重绘
+        el.classList.add(up ? 'flash-up' : 'flash-down');
+      });
+      scheduleKPI();
+    }
+    function scheduleKPI() {
+      const delay = Math.floor(Math.random() * 3000) + 2000;
+      setTimeout(refreshKPI, delay);
+    }
+    scheduleKPI();
+
+    /* =========================================================
+       各区风险分布 - 横向柱状图
+       ========================================================= */
+    function renderDistrictChart() {
+      const sorted = [...districtData].sort((a,b) => (b.c + b.d) - (a.c + a.d)).slice(0, 10);
+      const option = {
+        backgroundColor: 'transparent',
+        tooltip: {
+          trigger: 'axis',
+          axisPointer: { type: 'shadow' },
+          backgroundColor: 'rgba(10,22,40,0.92)',
+          borderColor: 'rgba(0,212,255,0.4)',
+          textStyle: { color: '#e0f2fe' }
+        },
+        grid: { left: 10, right: 30, top: 10, bottom: 10, containLabel: true },
+        xAxis: { type: 'value', splitLine: { lineStyle: { color: 'rgba(0,212,255,0.08)' } }, axisLabel: { color: '#8daac8' } },
+        yAxis: {
+          type: 'category',
+          data: sorted.map(d => d.name).reverse(),
+          axisLabel: { color: '#e0f2fe', fontSize: 12 },
+          axisLine: { lineStyle: { color: 'rgba(0,212,255,0.2)' } }
+        },
+        series: [
+          {
+            name: 'D级危房',
+            type: 'bar',
+            stack: 'total',
+            data: sorted.map(d => d.d).reverse(),
+            itemStyle: { color: '#ff3b3b', borderRadius: [0,2,2,0] },
+            barWidth: 12
+          },
+          {
+            name: 'C级危房',
+            type: 'bar',
+            stack: 'total',
+            data: sorted.map(d => d.c).reverse(),
+            itemStyle: { color: '#ff9f0a', borderRadius: [0,2,2,0] },
+            barWidth: 12
+          }
+        ]
+      };
+      chartDistrict.setOption(option);
+    }
+
+    /* =========================================================
+       结构类型占比 - 环形图
+       ========================================================= */
+    function renderStructureChart() {
+      const option = {
+        backgroundColor: 'transparent',
+        tooltip: {
+          trigger: 'item',
+          backgroundColor: 'rgba(10,22,40,0.92)',
+          borderColor: 'rgba(0,212,255,0.4)',
+          textStyle: { color: '#e0f2fe' }
+        },
+        legend: {
+          orient: 'vertical',
+          right: 10,
+          top: 'center',
+          textStyle: { color: '#8daac8', fontSize: 12 }
+        },
+        series: [
+          {
+            name: '结构类型',
+            type: 'pie',
+            radius: ['45%', '68%'],
+            center: ['35%', '50%'],
+            avoidLabelOverlap: false,
+            label: { show: false },
+            labelLine: { show: false },
+            data: structureData.map((d, i) => ({
+              value: d.value,
+              name: d.name,
+              itemStyle: { color: ['#00d4ff', '#00e676', '#ff9f0a', '#8e44ad'][i] }
+            }))
+          }
+        ]
+      };
+      chartStructure.setOption(option);
+    }
+
+    /* =========================================================
+       北京市风险态势图 - 简化 SVG 分区色块
+       ========================================================= */
+    function renderMap() {
+      const svg = document.getElementById('beijing-map');
+      // 简化的各区多边形坐标（示意性，非真实边界）
+      const zones = [
+        { name: "延庆区", path: "M120,60 L260,40 L280,160 L140,180 Z", cx: 190, cy: 110 },
+        { name: "密云区", path: "M300,30 L460,50 L430,200 L280,170 Z", cx: 360, cy: 110 },
+        { name: "怀柔区", path: "M140,190 L280,170 L300,300 L180,320 Z", cx: 230, cy: 245 },
+        { name: "平谷区", path: "M430,60 L540,100 L500,260 L380,220 Z", cx: 460, cy: 160 },
+        { name: "昌平区", path: "M180,330 L310,300 L330,420 L220,450 Z", cx: 255, cy: 380 },
+        { name: "顺义区", path: "M310,300 L430,260 L450,390 L340,420 Z", cx: 380, cy: 340 },
+        { name: "门头沟区", path: "M60,220 L170,220 L190,380 L80,420 Z", cx: 125, cy: 300 },
+        { name: "海淀区", path: "M170,350 L290,350 L300,440 L200,460 Z", cx: 235, cy: 400 },
+        { name: "朝阳区", path: "M300,360 L430,340 L440,460 L320,470 Z", cx: 370, cy: 410 },
+        { name: "石景山区", path: "M120,440 L180,430 L190,490 L130,500 Z", cx: 155, cy: 465 },
+        { name: "丰台区", path: "M190,430 L300,430 L310,510 L210,510 Z", cx: 250, cy: 470 },
+        { name: "东城区", path: "M250,390 L290,390 L290,420 L250,420 Z", cx: 270, cy: 405 },
+        { name: "西城区", path: "M210,390 L245,390 L245,420 L210,420 Z", cx: 227, cy: 405 },
+        { name: "通州区", path: "M450,360 L560,340 L550,480 L460,480 Z", cx: 505, cy: 410 },
+        { name: "大兴区", path: "M240,520 L380,500 L400,600 L260,600 Z", cx: 320, cy: 550 },
+        { name: "房山区", path: "M80,510 L200,510 L220,620 L100,640 Z", cx: 150, cy: 575 }
+      ];
+
+      svg.innerHTML = '';
+      zones.forEach(z => {
+        const d = districtData.find(x => x.name === z.name) || { riskLevel: 1, d:0, c:0, warning:0, handleRate:0 };
+        const color = getRiskColor(d.riskLevel);
+
+        const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        g.setAttribute('class', 'map-zone');
+        g.setAttribute('data-name', z.name);
+
+        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', z.path);
+        path.setAttribute('fill', color + '33'); // 20% 透明度
+        path.setAttribute('stroke', color);
+        path.setAttribute('stroke-width', '1.5');
+        g.appendChild(path);
+
+        // 区名
+        const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        text.setAttribute('x', z.cx);
+        text.setAttribute('y', z.cy);
+        text.setAttribute('text-anchor', 'middle');
+        text.setAttribute('fill', '#e0f2fe');
+        text.setAttribute('font-size', '12');
+        text.setAttribute('font-weight', 'bold');
+        text.setAttribute('pointer-events', 'none');
+        text.textContent = z.name;
+        g.appendChild(text);
+
+        // 风险点呼吸圆点
+        for (let i = 0; i < Math.min(d.warning, 3); i++) {
+          const cx = z.cx + (Math.random() - 0.5) * 60;
+          const cy = z.cy + (Math.random() - 0.5) * 40;
+          const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+          circle.setAttribute('cx', cx);
+          circle.setAttribute('cy', cy);
+          circle.setAttribute('r', '4');
+          circle.setAttribute('fill', '#ff3b3b');
+          circle.setAttribute('pointer-events', 'none');
+          circle.innerHTML = `<animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>`;
+          g.appendChild(circle);
+        }
+
+        // 交互
+        g.addEventListener('mouseenter', (e) => showMapTooltip(e, z.name, d));
+        g.addEventListener('mouseleave', hideMapTooltip);
+        g.addEventListener('mousemove', (e) => moveMapTooltip(e));
+
+        svg.appendChild(g);
+      });
+    }
+
+    // 地图 tooltip
+    const mapTooltip = document.createElement('div');
+    mapTooltip.className = 'fixed hidden z-50 pointer-events-none px-3 py-2 rounded text-xs border';
+    mapTooltip.style.cssText = 'background:rgba(10,22,40,0.95); border-color:rgba(0,212,255,0.4); color:#e0f2fe;';
+    document.body.appendChild(mapTooltip);
+
+    function showMapTooltip(e, name, d) {
+      mapTooltip.innerHTML = `
+        <div class="font-bold text-[var(--primary)] mb-1">${name}</div>
+        <div>危房总数：${d.c + d.d}</div>
+        <div>D级：${d.d}　C级：${d.c}</div>
+        <div>当前预警：${d.warning}</div>
+        <div>处置率：${d.handleRate.toFixed(1)}%</div>
+      `;
+      mapTooltip.classList.remove('hidden');
+      moveMapTooltip(e);
+    }
+    function hideMapTooltip() { mapTooltip.classList.add('hidden'); }
+    function moveMapTooltip(e) {
+      mapTooltip.style.left = (e.clientX + 12) + 'px';
+      mapTooltip.style.top = (e.clientY + 12) + 'px';
+    }
+
+    /* =========================================================
+       今日预警与处置分时走势 - 股票分时图风格
+       ========================================================= */
+    function renderTrendChart() {
+      const option = {
+        backgroundColor: 'transparent',
+        tooltip: {
+          trigger: 'axis',
+          backgroundColor: 'rgba(10,22,40,0.92)',
+          borderColor: 'rgba(0,212,255,0.4)',
+          textStyle: { color: '#e0f2fe' }
+        },
+        legend: { top: 0, right: 10, textStyle: { color: '#8daac8' }, data: ['新增预警','处置完成'] },
+        grid: { left: 40, right: 20, top: 35, bottom: 25 },
+        xAxis: {
+          type: 'category',
+          boundaryGap: false,
+          data: trendData.times,
+          axisLabel: { color: '#8daac8', fontSize: 10 },
+          axisLine: { lineStyle: { color: 'rgba(0,212,255,0.2)' } }
+        },
+        yAxis: {
+          type: 'value',
+          splitLine: { lineStyle: { color: 'rgba(0,212,255,0.08)' } },
+          axisLabel: { color: '#8daac8', fontSize: 10 }
+        },
+        series: [
+          {
+            name: '新增预警',
+            type: 'line',
+            smooth: true,
+            symbol: 'none',
+            data: trendData.new,
+            lineStyle: { color: '#ff3b3b', width: 2 },
+            areaStyle: {
+              color: new echarts.graphic.LinearGradient(0,0,0,1,[
+                { offset: 0, color: 'rgba(255,59,59,0.35)' },
+                { offset: 1, color: 'rgba(255,59,59,0)' }
+              ])
+            }
+          },
+          {
+            name: '处置完成',
+            type: 'line',
+            smooth: true,
+            symbol: 'none',
+            data: trendData.done,
+            lineStyle: { color: '#00e676', width: 2 },
+            areaStyle: {
+              color: new echarts.graphic.LinearGradient(0,0,0,1,[
+                { offset: 0, color: 'rgba(0,230,118,0.35)' },
+                { offset: 1, color: 'rgba(0,230,118,0)' }
+              ])
+            }
+          }
+        ]
+      };
+      chartTrend.setOption(option);
+    }
+
+    // 每 5 秒推进一个时间点
+    setInterval(() => {
+      const d = new Date();
+      const t = `${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
+      trendData.times.push(t);
+      trendData.times.shift();
+      trendData.new.push(Math.floor(Math.random() * 8));
+      trendData.new.shift();
+      trendData.done.push(Math.floor(Math.random() * 6));
+      trendData.done.shift();
+      renderTrendChart();
+    }, 5000);
+
+    /* =========================================================
+       实时预警列表
+       ========================================================= */
+    function addWarning(silent = false) {
+      const level = riskLevels[Math.floor(Math.random() * riskLevels.length)];
+      const district = districts[Math.floor(Math.random() * districts.length)];
+      const street = streets[Math.floor(Math.random() * streets.length)];
+      const type = riskTypes[Math.floor(Math.random() * riskTypes.length)];
+      const addr = `${district}${street}${Math.floor(Math.random() * 99) + 1}号院${Math.floor(Math.random() * 5) + 1}号楼`;
+      const d = new Date();
+      const time = `${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}:${String(d.getSeconds()).padStart(2,'0')}`;
+
+      const item = { id: Date.now() + Math.random(), time, district, street, addr, type, level };
+      warnings.unshift(item);
+      if (warnings.length > 12) warnings.pop();
+      renderWarnings();
+    }
+
+    function renderWarnings() {
+      const container = document.getElementById('warning-list');
+      container.innerHTML = warnings.map((w, i) => `
+        <div class="warning-item new flex items-center gap-2 px-2 py-2 border-b border-[rgba(0,212,255,0.08)] cursor-pointer hover:bg-[rgba(0,212,255,0.1)]" onclick="openWarningModal(${w.id})" style="animation-delay:${-i*0.05}s">
+          <div class="w-[62px] text-xs font-mono text-[var(--text-muted)]">${w.time}</div>
+          <div class="w-12 text-xs truncate">${w.district}</div>
+          <div class="flex-1 truncate text-xs">${w.addr}</div>
+          <div class="w-20 text-xs truncate text-[var(--text-muted)]">${w.type}</div>
+          <span class="px-1.5 py-0.5 rounded text-[10px] text-white font-bold ${levelTagClass[w.level]}">${w.level}</span>
+        </div>
+      `).join('');
+      // 移除 new 类触发一次高亮
+      setTimeout(() => {
+        container.querySelectorAll('.warning-item').forEach(el => el.classList.remove('new'));
+      }, 50);
+    }
+
+    setInterval(() => addWarning(), 3000);
+
+    function openWarningModal(id) {
+      const w = warnings.find(x => x.id === id);
+      if (!w) return;
+      document.getElementById('modal-title').textContent = w.addr;
+      document.getElementById('modal-district').textContent = w.district;
+      document.getElementById('modal-level').innerHTML = `<span style="color:${levelColor[w.level]}">${w.level}预警</span>`;
+      document.getElementById('modal-grade').textContent = w.level === '红色' ? 'D级' : (w.level === '橙色' ? 'C级' : 'B级');
+      document.getElementById('modal-year').textContent = (1950 + Math.floor(Math.random() * 50)) + '年代';
+      document.getElementById('modal-structure').textContent = structureData[Math.floor(Math.random() * structureData.length)].name;
+      document.getElementById('modal-people').textContent = Math.floor(Math.random() * 12 + 1) + '人';
+      document.getElementById('modal-desc').textContent = `${w.time} 监测到${w.type}风险，已纳入重点监测，${w.level === '红色' ? '建议立即转移人员并封控现场' : '安排巡查人员现场复核'}。`;
+
+      const history = document.getElementById('modal-history');
+      history.innerHTML = [
+        `${w.time} 自动监测${w.type}`,
+        `${String(w.district).slice(0,2)}区巡查员上报现场照片`,
+        '2024-06-15 房屋安全鉴定为' + (w.level === '红色' ? 'D级' : 'C级')
+      ].map(h => `<li>${h}</li>`).join('');
+
+      document.getElementById('modal-person').textContent = ['张建国','李卫国','王秀英','刘志强'][Math.floor(Math.random()*4)];
+      document.getElementById('modal-phone').textContent = '138' + String(Math.floor(Math.random()*100000000)).padStart(8,'0');
+      document.getElementById('modal-overlay').classList.add('active');
+    }
+
+    function closeModal(e) {
+      if (!e || e.target === document.getElementById('modal-overlay')) {
+        document.getElementById('modal-overlay').classList.remove('active');
+      }
+    }
+
+    /* =========================================================
+       处置进度 TOP 榜
+       ========================================================= */
+    function renderTopChart() {
+      const sorted = [...topData].sort((a,b) => b.value - a.value);
+      const option = {
+        backgroundColor: 'transparent',
+        tooltip: {
+          trigger: 'axis',
+          axisPointer: { type: 'shadow' },
+          backgroundColor: 'rgba(10,22,40,0.92)',
+          borderColor: 'rgba(0,212,255,0.4)',
+          textStyle: { color: '#e0f2fe' }
+        },
+        grid: { left: 10, right: 50, top: 10, bottom: 10, containLabel: true },
+        xAxis: { type: 'value', max: 100, splitLine: { lineStyle: { color: 'rgba(0,212,255,0.08)' } }, axisLabel: { color: '#8daac8', formatter: '{value}%' } },
+        yAxis: {
+          type: 'category',
+          data: sorted.map(d => d.name).reverse(),
+          axisLabel: { color: '#e0f2fe', fontSize: 12 },
+          axisLine: { lineStyle: { color: 'rgba(0,212,255,0.2)' } }
+        },
+        series: [{
+          type: 'bar',
+          data: sorted.map(d => d.value).reverse(),
+          barWidth: 14,
+          label: {
+            show: true,
+            position: 'right',
+            formatter: '{c}%',
+            color: '#00d4ff',
+            fontSize: 11
+          },
+          itemStyle: {
+            borderRadius: [0, 7, 7, 0],
+            color: new echarts.graphic.LinearGradient(0,0,1,0,[
+              { offset: 0, color: 'rgba(0,212,255,0.4)' },
+              { offset: 1, color: '#00d4ff' }
+            ])
+          }
+        }]
+      };
+      chartTop.setOption(option);
+    }
+
+    // 刷新 TOP 榜数据
+    setInterval(() => {
+      topData.forEach(d => {
+        d.value = fluctuate(d.value, 5, 30, true);
+        if (d.value > 100) d.value = 100;
+      });
+      renderTopChart();
+    }, 4000);
+
+    /* =========================================================
+       底部跑马灯
+       ========================================================= */
+    function renderMarquee() {
+      const track = document.getElementById('marquee-track');
+      const colorClass = { red: 'text-red-400', green: 'text-green-400', blue: 'text-[var(--primary)]', orange: 'text-orange-400' };
+      const items = marqueeMsgs.map(m => `<span class="mx-6 ${colorClass[m.type]}">${m.text}</span>`).join('');
+      // 复制一份实现无缝
+      track.innerHTML = items + items;
+    }
+    renderMarquee();
+
+    /* =========================================================
+       应急模式切换
+       ========================================================= */
+    function toggleEmergency() {
+      const on = document.getElementById('emergency-toggle').checked;
+      document.body.classList.toggle('emergency', on);
+      document.getElementById('response-level').textContent = on ? 'Ⅰ级应急响应' : 'Ⅲ级应急响应';
+      document.getElementById('response-level').style.color = on ? '#ff3b3b' : '';
+
+      // 重新渲染所有图表以适配红色主题
+      renderDistrictChart();
+      renderStructureChart();
+      renderTrendChart();
+      renderTopChart();
+    }
+
+    /* =========================================================
+       自动刷新各区数据 & 重绘地图
+       ========================================================= */
+    setInterval(() => {
+      districtData.forEach(d => {
+        d.d = fluctuate(d.d, 3, 0);
+        d.c = fluctuate(d.c, 5, 5);
+        d.warning = fluctuate(d.warning, 2, 0);
+        d.handleRate = fluctuate(d.handleRate, 3, 20, true);
+        if (d.handleRate > 100) d.handleRate = 100;
+        d.riskLevel = Math.random() > 0.8 ? 3 : (Math.random() > 0.5 ? 2 : 1);
+      });
+      renderDistrictChart();
+      renderMap();
+    }, 6000);
+
+    /* =========================================================
+       自适应缩放
+       ========================================================= */
+    function fitScreen() {
+      const app = document.getElementById('app');
+      const ratio = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
+      app.style.transform = `scale(${ratio})`;
+      app.style.width = '1920px';
+      app.style.height = '1080px';
+    }
+    window.addEventListener('resize', () => {
+      fitScreen();
+      chartDistrict.resize();
+      chartStructure.resize();
+      chartTrend.resize();
+      chartTop.resize();
+    });
+    fitScreen();
+
+    /* =========================================================
+       首次渲染
+       ========================================================= */
+    renderDistrictChart();
+    renderStructureChart();
+    renderMap();
+    renderTrendChart();
+    renderTopChart();
+    renderWarnings();
+
+    // 天气定时切换
+    setInterval(() => {
+      const icon = weatherIcons[Math.floor(Math.random() * weatherIcons.length)];
+      document.getElementById('weather-icon').className = `fas ${icon} text-[var(--primary)] text-xl`;
+      document.getElementById('weather-temp').textContent = (22 + Math.floor(Math.random() * 6)) + '°C';
+    }, 10000);
+
+  </script>
+</body>
+</html>
