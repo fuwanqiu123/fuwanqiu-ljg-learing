@@ -1,0 +1,649 @@
+Welcome back. I hope you
+enjoyed learning about how to empathize with users and
+understand the design problem. Now, we'll enter
+the ideation phase of the design thinking process, where we'll focus on
+understanding design ideation, conducting competitive
+audits, brainstorming approaches like "how might
+we" and Crazy Eights, and determining if we
+need additional research. Keep in mind, the ideation phase is where we transition from learning about users and the problem to coming
+up with solutions.
+
+Let's start by discussing
+what ideation means. As you might have guessed,
+the term ideation comes from the word idea. Ideation can be defined as the process of
+generating a broad set of ideas on a given topic with no attempt to judge
+or evaluate them. The broad set of ideas
+part is really important. Ideation is all about coming up with lots and lots of ideas. The no judgment part
+is important too. We need to be able to explore all ideas without judging
+them and throwing them out. Some of the most crazy ideas can actually prove to
+be really valuable. For example, from the
+early to mid 2000s, mobile phones were getting
+smaller and smaller. The idea for a drastically
+larger mobile phones like the iPhone, seemed crazy at the time. But history has shown that
+larger phones ended up meeting users needs much
+better than smaller phones. Today, companies
+that make phones brag about the large
+size of their screens, which is the
+complete opposite of the conversation 20 years ago. One of the best
+things about ideation is the mentality that
+there are no bad ideas. If coming up with lots of ideas isn't your strongest
+skill, don't worry. Part of being a designer
+means intentionally exploring as many
+ideas as possible, knowing that some of them, or even most of them won't work. Plus, the more you practice
+coming up with lots of ideas, the more natural it will feel. What does ideation look like in the real world for UX designers? A designer, either individually or in a group,
+brainstorms out loud. Every idea is documented, often on sticky notes
+or a white board. The goal is quantity
+of ideas over quality, so share as many
+ideas as possible. No evaluation is
+allowed at this stage. If you're brainstorming
+in a group, make sure you gather
+a diverse team for different backgrounds
+and perspectives. Question the obvious. It can be difficult to
+question a common belief or practice if everyone
+has the same opinions. Finally, after you come up with a bunch of ideas, take a break. Then everyone should come back together to evaluate the ideas. When reviewing the ideas, it's important to
+have a reason for picking the idea you
+move forward with. There are a few common ways
+to evaluate your ideas. First, is the idea feasible? Is it technically
+possible to build? Next, is the idea desirable? Does it solve the user
+problem you're focusing on? Lastly, is your idea viable? Is it financially beneficial
+for the business? If an idea meets
+these three criteria, it might be a good option
+to move forward with. Now we know what ideation is, what ideation looks
+like in the real world, and how to evaluate ideas. Up next, you'll learn
+why coming up with lots of ideas is so
+important. Enjoy.
+
+All right, so now we know what
+it means to ideate. But why is coming up with lots
+of ideas so important? That's what we'll answer in this video. To get our brain pumping,
+let's ideate solutions for this problem: Olivia is a parent who needs a way to
+ride her bike with her two-year-old, Luca, because he can't ride his own bike. There are lots of solutions to
+this problem that exists already. But let's imagine it's a new product. To solve for this problem you could
+design a seat behind the adult rider; A seat in front of the adult rider; A bicycle built for two, requiring
+the child to pedal with the adult; A mini bike attachment for
+the child to ride behind to the adult; A basket on the handlebars
+for the child to sit in; A sidecar, like you might find
+on a motorcycle; A seat that attaches to
+the adult's helmet; or A covered trailer to pull behind the bike. Are some of these ideas ridiculous? Absolutely. But when you're ideating, you want to push past the obvious
+ideas to get to the innovative ones. Remember: Ideation is focused on
+coming up with a lot of ideas. Why? For one, the list of your ideas
+will be narrowed down when you have to think about constraints,
+like budget and timelines. For example, your biggest idea might not be possible
+because of your team's budget constraints. You want to start with a long
+list of potential ideas, so that when constraints are introduced,
+you still have solutions that could work. In addition, we need to come up
+with ideas that are equitable. The first idea you come up with might
+be perfect for you as a user, but when we're designing with equity in mind, we want to make sure that the design works
+for everyone who will use the product. There are a lot of
+solutions to every problem, but we want to find the one that
+works best for your users, not you. Lastly, keep in mind that you might
+not be the one to decide which idea is the best solution. Instead, let users test
+a bunch of your ideas and they might find the right answer. So, now that you understand why exploring
+lots of ideas is so beneficial, we can start the ideation process. Coming up, We'll show you how to evaluate
+ideas based on business needs.
+
+Welcome back. We now
+know how to come up with lots of ideas and
+evaluate those ideas. As you ideate, it's important to think about the business
+you're designing for. This includes the business's
+voice, tone, and budget. That's what we'll
+focus on in this video: understanding the business
+needs behind a design. UX designers often work closely with marketing
+and branding teams. That's because branding has a big effect on how users
+experience a product. Two major components of branding are voice and the tone. Even though a brand
+isn't a human being, it still has a personality. Users don't want to
+communicate with a brand that uses robotic
+sounding language. Instead, users want to
+interact with the brand whose voice and tone
+sounds human and engaging. Here's the thing:
+Voice and tone have a huge impact on a user's
+experience with a product. For example, imagine you
+place an order online for shoes and receive a
+confirmation email that says, "Great choice. Your purchase should
+be landing on your doorstep in
+the next five days. Let us know how
+much you love it." When you order another pair of shoes from a different company, the confirmation
+says, "Order shipped. Estimated arrival:
+5-7 business days." The first email feels
+enthusiastic and conversational, while the second email
+feels cold and detached. Small changes in
+language communicate a brand's voice and tone and help improve the
+user experience. As we continue
+through this program, you will see how design
+can help facilitate a conversation between a
+business and its users. For example, Apple
+and Google might each have a product that focuses
+on similar user needs, but the approach, tone, and branding for that product
+can be really different. In addition, we need
+to keep in mind the fundamentals of driving
+sales when designing. For example, imagine you are designing an e-commerce site. You want to make it easy to
+find the Checkout button. This improves the user
+experience and drives sales, so your design benefits both the customer and the business:
+a win-win. Finally, it's helpful to research your brand's competitors as part of the
+design exploration. Knowing the successes
+and failures of your competition can help influence your design decisions. That might involve
+asking questions like, how do your competitors
+approach the checkout cart? Or, what does your competitor's
+sign-up process look like? To recap, we need
+to consider both the business needs and the
+user's needs when designing. Next, we'll investigate
+our competitors, so get your detective gear ready.
+
+Hi there. In the last course, we learned how to empathize with users and define their problems. We used empathy maps,
+personas, user stories, and user journey maps to identify pain points the user
+might experience. Our role as UX designers
+is to understand these pain points and come
+up with ideas to solve them. Empathy maps, personas,
+user stories, and user journey maps are
+tools UX designers commonly use to expand our understanding of the people we're
+designing for. A lot of planning and detail
+goes into using these tools. If you need to
+refresh your memory, feel free to revisit
+earlier content. Let's think back to empathy maps. As a reminder, an empathy map is an easily understood
+chart that explains everything designers have
+learned about a type of user. Empathy maps help UX
+designers understand a user's behavior when
+interacting with a product. To get a little more specific, empathy maps focus on four
+main motivations of users: what the user says, thinks, does, and feels. In other words, empathy maps tap into our users'
+minds and hearts to help us understand their thoughts and feelings in a given situation. The insights gathered from empathy maps allow us to
+come up with ideas for solutions that address
+the user's problems and appeal to the user
+on a deeper level. Next, let's recall personas. As you might remember, personas are fictional
+users whose goals and characteristics
+represent the needs of a larger group of users. As you're ideating, it's
+a good time to reference the personas you created to help you remember who
+you're designing for. Ask yourself, are there any specific goals
+they want to achieve? Or are there any
+needs that you should design for in order to
+support the personas? In addition, you might want
+to review your user stories. A user story is a fictional
+one-sentence story told from a persona's point of view to inspire and inform
+design decisions. It introduces the user, lays out an obstacle, and
+states our ultimate goal. The user story expands on the persona and deepens your understanding
+of a user group. A good user story
+can also inspire empathetic design decisions by making our approach
+user centered. If you have a lot of
+user needs to consider, user stories determine which ones are the most critical to resolve. This can help narrow
+down which user needs to focus on when coming up
+with ideas for solutions. Lastly, think back to the user
+journey maps you created. Remember, a user journey
+is the series of experiences a user has as they interact
+with your product. User journeys build
+off the personas and user stories you've
+already created. User journeys help
+you come up with ideas for designs
+that truly support the user's needs and reduce their problems, or what we also
+like to call "pain points." Together, empathy maps,
+personas, user stories, and user journey maps help us create a problem statement, or a clear description of a user's needs that our
+design should address. Coming up, we'll transition
+from the problem the user is facing to the solution we
+can provide as UX designers. Get ready to dig in!
+
+Hi, there! My name
+is Craig, and I'm a research manager at Google. In terms of what the day
+normally looks like, I will be working
+closely with design, thinking about the next
+iteration of a product. I'll probably be working with
+a product manager, trying to convince them of a
+certain direction that we should be taking. I'll be thinking about
+the research gap: What research should we be doing? Where could we have real benefit and impact to the business? There's very particular moments where research and
+design really come together to align on
+who we're designing a product for and seeing how
+that product is then built, and then seeing it in
+the hands of our users, and seeing how that's then
+evaluated by them. Normally, up front, before we even think about
+launching a product, there's a good amount of what we call formative or strategic research that goes on that our design counterparts
+are utilizing, to effectively build out those
+initial concepts that we will start advocating
+for around the business. Once we've gotten approval or once we're in the process
+of saying, "Yes, this is something
+we really want to pursue," then we're typically researching with users,
+with prototypes. We are taking insights that we have got from the
+research, working with our design teams, and really thinking about the
+actual design itself, like, Should it look like this?
+Should it look like that? Where should we place this? How will the user move
+from screen to screen? In those moments, we're testing frequently, we're testing often. One of the biggest mistakes I think every
+researcher learns at some point in their career is not testing early and
+frequently enough, and we all have
+stories of where we haven't done that and the effect that it's
+had on the product. Eventually, we'll have
+something that we can launch and that's a
+really exciting moment. We've gone all the
+way from an idea, all the way from ideation, through to testing something
+in the hands of our users, all the way to a proper launch where it's out in the public. Our job doesn't stop. We're then really heavily involved
+in understanding, has that product landed? Is it doing the things that
+we want it to for the user? How do the users feel about that? How are they responding to it? Again, we take that feedback and we work quickly with our design,
+product, and eng[ineering] team to put that feedback into the product and iterate
+from that moment on. Over time, you get
+these cyclical loops, you get this product
+development process using research and insights to inform the next stage
+of the product. And fortunately, I manage a really
+great team of researchers, so it's also about giving them responsibility and giving
+them ownership of things, so where can I step back and let them do more and let them shine?
+
+Welcome back. It's me, Karen. Let's work on
+merging the insights from empathy maps, personas, user stories, and
+user journey maps to come up with a focus
+scope for your designs. To focus the scope
+of your designs, we'll create a product
+goal statement, which is one or
+two sentences that describe a product and its
+benefits for the user. In other words,
+the goal statement provides the ideal
+solution for the design. At this point in
+the design process, we're transitioning from
+the problem the user is facing to the solution we're
+providing as UX designers. So, the problem is defined in the problem statement and the solution is listed
+in the goal statement. Goal statements cover what
+the product lets users do, who the action affects, why the action positively
+affects users, and how the effectiveness
+of a product is measured. To answer the who, what, why, and how, you should lean on the user research you've
+already conducted. Just like with many
+other research tools, there's a formula for creating an effective goal statement. This template says, "Our
+product will let users perform specific actions
+which will affect a specific user by an action. We will measure effectiveness
+by its impact." After we fill in this info, we will have a working
+goal statement. Now, the easiest way
+to find out the who, what, why, and how is to refer back to your
+problem statement. Let's think back to the
+problem statement formula we introduced earlier. The user has some specific
+characteristics and has a specific need
+for a specific reason. Now, imagine we're
+designing an app that helps people find and
+schedule dog walkers. A problem statement we
+might create would be, Drew is a pet owner in a
+small town who needs to find and schedule a dog walker because they work
+the night shift. Before we connect
+those dots, remember, we are transitioning from
+the problem that Drew is facing to a solution
+that meets their needs. With that in mind, let's begin building our
+goal statement. Here's our goal
+statement template. We know what our product is, so let's fill that section
+in with dog walking app. Our goal statements so far is our dog walking app let's use your schedule dog walkers
+quickly and easily. Now we have to think about the specific actions our
+users will take, the who. This is where we'll turn
+to our problem statement. The first part of the
+problem statement, Drew is a pet owner
+in a small town, describes the who of our
+goal statement, pet owners. We'll add that to who
+the actions affect. Now, we're going to look at how the actions affect the users
+we've just established. The third part of the
+problem statement, because they work the night
+shift describes an insight about why our user needs this product that
+informs our design. In this case, our dog walker
+app allows users to choose the most convenient times and dates to have their pets walked. We'll add that to the why
+area of our goal statement. We're almost there. The last section
+focuses on how we will measure the effectiveness
+of our product. This can vary based
+on project needs and what tools your
+team has available. We've decided that we will measure effectiveness
+for this app by analyzing the number of daily and weekly
+appointments users set. Our goal statement reads: Our dog walking
+app will let users schedule dog walkers
+quickly and easily, which will affect users who are pet owners by allowing them to choose the most
+convenient times and dates to have
+their pets walked. We will measure
+effectiveness by analyzing the number of daily and
+weekly appointments. If you didn't create a problem
+statement, don't worry. You can also pull the who, what, and why into your
+goal statement from other parts of your research
+and ideation process. For example, who can
+come from the persona. What could come from
+the user story. Why can come from the empathy map and
+user journey maps, and how can come from
+the brainstorming. The how is important
+because it helps make sure the goal is
+measurable and realistic. Spend some time considering
+concrete ways you can evaluate how well
+the product is doing. Okay. We've made the transition
+from the problem the user is facing to the solution we
+can provide as UX designers. Our solution is outlined
+in the goal statement. Now it's time to think about what our user
+experience looks like using the solution.
+See you there.
+
+Welcome back. Did you get your detective gear? In this video, we'll explore an important
+part of the ideation process: competitive audits. A competitive audit is an overview of your
+competitors' strengths and weaknesses. We know that it's important to come up
+with lots of ideas before deciding on one solution. A competitive audit is just one
+tool to explore ideas for designs, so we can learn from others about
+what has worked and not worked. Let's begin by discussing what you
+can learn from a competitive audit. This includes:
+Identifying your key competitors, Reviewing the products that
+your competitors offer, Understanding how your competitors
+position themselves in the market, Examining what your competition does
+well and what they could do better, And considering how your
+competitors talk about themselves. So, who do you consider
+to be your competition? To be thorough,
+you should include both direct and indirect competitors in your audit. Grab your magnifying glass. Direct competitors have offerings,
+meaning products, services, or features, that are similar to your
+product and focus on the same audience. Essentially, you're both trying
+to solve the same problem. Indirect competitors
+are a little more nuanced. They either have a similar
+set of offerings, but focus on a different audience than you, or
+they have a different set of offerings and focus on the same audience as you. For example, let's say you're creating a weight loss
+app that focuses on people in their 30s. Your direct competitors are other
+companies that also make weight loss apps targeted at people in their 30s. Your indirect competitors are any
+company that makes health or wellness apps targeted
+at people in their 30s, or make weight loss apps targeted at
+people in a different age bracket. It's helpful to audit a wide range of
+products that compete with yours to get a full picture of the landscape. In UX design, competitive audits
+are important for a few key reasons. Let's investigate. First, they help inform
+your design process. How did your competitors approach
+designing their products? Knowing what others have done can help
+you make better design decisions for your own product. Second, competitive audits help
+you solve usability problems. Is your competitor's
+website difficult to use? If so, you know what to avoid for
+your own website. Third, competitive audits can
+reveal gaps in the market. Are there user needs your
+competitors do not meet? Your product might be able
+to address these user needs. Fourth, competitive audits
+provide reliable evidence. Why is it important to gather evidence? Design ideas are most successful
+when there's a deep understanding of business needs and market gaps. Competitive audits are a huge part
+of gathering that information. Knowing all of these things can help
+you save time, money, and energy. I know we all want to be detectives,
+but who actually conducts an audit? Well, it depends on where you work. A smaller company might have a single
+UX designer conduct the audit, while a larger company might have
+an entire team to do the work. Either way, it's important for you to know how to put together
+a competitive audit, because it's critical to your work as a UX designer.
+Now you know about competitive audits and their benefits, so you can put your
+detective cap back on the hook. Coming up, we'll explore some of the limitations
+of competitive audits. See you there!
+
+Hi again! Now that we've defined competitive audits and
+explored their benefits, we'll discuss a few limitations. Let's start with the
+biggest limitation first. Competitive audits can
+stifle creativity. If you spend too much time focusing on what
+others are doing, you might prevent
+yourself from creating a truly innovative product. Innovation doesn't happen
+by copying the competition. The key is to understand what the competition is doing and use that as a starting point to push forward and innovate. Another limitation is
+that the success of the competitive audit depends on how well you interpret
+the findings. Analyzing data can be tricky, and it's a skill
+that you'll develop throughout your
+career as a designer. Working on a team
+can be helpful here as you'll have others to
+interpret the data with. Another thing to
+keep in mind while doing a competitive audit, is that not all designs
+work in all use cases. The features that work well
+for a competitor might not work well for your product, if
+you serve different users. For example, imagine you're designing a website
+for a clothing company. A competitor has a feature
+that shows photos of customers wearing their brand's
+clothing on social media. But if your audience doesn't
+regularly use social media, this feature is not a good fit
+for your clothing website. One last thing to call out: You should do
+competitive audits on a regular basis, not just once. You want to stay on top of what your competitors are doing and keep an eye out for new competitors
+that might emerge. All right, now that we've
+discussed why we do competitive audits and their
+limitations, coming up we'll share the specific
+steps to take when conducting a competitive
+audit. Let's go!
+
+Welcome back. Now that you understand why we use
+competitive audits, let's go through
+how to conduct one. The first step is to outline the goals for your
+competitive audit. Make sure your
+goals are specific. It can help to break
+down your goals into the different product
+aspects you want to compare. Please note in this video, when we say the word aspect, we are referring to a part
+or piece of a design or product that is featured
+in similar designs. For example, imagine
+you're reviewing three competing
+e-commerce websites. Your overall goal is to compare the aspects of the shopping
+experience on each site. If we broke that goal
+down to be more specific, there are a few aspects you
+might focus on comparing, customer reviews and ratings, return policy details, delivery, and in-store pickup options. Or imagine you're reviewing two subscription-based
+music streaming platforms. In this case, your
+competitive audit might focus on aspects like
+pricing options, browse and search functions, and creating and
+sharing playlists. As you might notice, your specific goals will differ based on the kinds of
+companies you review. These two examples are just a small fraction of the goals your audit
+might include. Now you have outlined the goals for your
+competitive audit. Next step, step two. Create a spreadsheet with a
+list of your competitors. You should aim to include 5-10
+competitors in your list. Some of the
+competitors should be direct and others
+should be indirect. As a reminder, direct
+competitors have offering that are similar to your product and focus on the same audience. Essentially, you're both trying to solve the same problem. Indirect competitors either have a similar set of offerings, but focus on a
+different audience, or have a different
+set of offerings and focus on the same audience. Including both direct and
+indirect competitors in your audit gives you a better picture of the
+full competitive landscape. With your list of
+competitors in mind, you are ready for step 3. Call out the specific
+aspects you want to compare. This list of aspects should align to your goals
+for the audit. Let's quickly review a template. The names of your
+competitors are listed down the left
+side of the spreadsheet, and the names of the
+aspects you want to compare are listed
+across the top. Now that your template
+is all set up, you're ready for step 4. Research. Visit each
+competitor's website or app and take notes
+about their aspects. Remember to include details
+like what works well, what could be improved, and whether your
+competitors aspects meet the needs of your
+specific audience. It's also helpful
+to take lots of screenshots and link to
+them in the spreadsheet. These will be
+important to have for your report and
+presentation later on. After you've collected all the information
+in your spreadsheet, it's time for step 5. Analyze your findings. Try to spot trends and themes. Ask yourself, what are the similarities between
+you and your competitors? Is there a certain aspect that your competitors all
+approach in the same way? Finally, the last step in a competitive audit is to summarize your
+findings in a report. Your report might be a slide
+presentation or a document. It's helpful to include screenshots and simple
+charts or graphics. We'll go into more detail
+about how to present your findings later. That's it. You now know the basic steps involved in conducting
+a competitive audit. Coming up, we'll go through an example audit step-by-step, so you can get a better idea of how this all works in action. You're doing great so far.
+
+Congrats, you've successfully presented
+a competitive audit to your team. Knowing what the competition is
+up to has given you an edge. In this video, we'll talk about how to use learnings
+from your competitive audit to ideate. Let's take a step back and remember how competitive audits fit
+into the larger UX design process. As we've discussed, it's important to come up with lots of
+ideas before deciding on one solution. To explore ideas for designs,
+there are many tools you can use. A competitive audit is one. Let's take that one step further. How can we use the learnings from our
+competitive audit to come up with even more ideas? Try to bring together a team that can
+ideate from different perspectives, including designers, researchers,
+writers, and engineers. Now you're ready to start brainstorming. For example, let's say that two of your competitors
+have a difficult signup process. Is your product signup process easy? Can you update your signup process
+design to make your product stand out compared to competitors? As you come up with ideas for
+how your product can do better, you may even discover new strengths that
+your competitors haven't thought of yet. Once you've come up with lots of ideas,
+begin sorting them. You can group similar ideas
+together to uncover patterns, and a few ideas will naturally
+rise to the top. Your goal is to walk away from this
+brainstorm with a list of ideas that help your product stand out
+from the competition. All right, now you know the benefits and
+limitations of competitive audits, how to conduct a competitive audit, and how to use findings from your
+competitive audit to brainstorm new ideas.
+
+Hi, my name is Vanessa and I am a user experience
+researcher at Google. Before becoming a researcher, I had a ton of different jobs. More than most people can
+probably list in their career. I was working at a library then I decided to become
+a personal trainer. My first kind of
+stint into tech was essentially becoming an
+office manager at a start-up. And that was the first
+time that I was exposed to Engineering and design
+and product management, but in a very limited manner. I did something very
+bold and essentially told the CEO of one of the small companies
+that I worked at, that I don't want to be an
+office manager forever. And so he ended up telling me, "Fine, let's figure out
+what you want to do. You can learn more
+about the business. " and he made me his
+executive assistant. And so that's how I got to
+start sitting in on meetings, understanding more about all the different
+roles within tech. And a year after
+that decided that UX was going to be kind of the
+field that I want to be in. So from there, I essentially looked into research,
+looked into design, started shadowing some
+of the designers, was taking design
+thinking courses, all different types of things
+just to get more exposure. And once I finally
+decided that research is the thing that I wanted to do, I got a master's degrees. I was working full
+time, in school part-time and that was kind of my transition into UX
+and into research. I always say, "Research
+is like party planning. You have to just think of
+everything ahead of time." There is so many
+different aspects to it in order for both sides to
+have a good experience, which I think is
+always supercritical. Like you don't want the
+participants to be uncomfortable, you don't want the researcher
+to be uncomfortable. Everything leads up to you understanding people
+and processes and I think with research, thinking about how
+to be empathetic, how that metacognition of being able to
+recognize a situation, talk to any type of person. Like we don't necessarily choose who our customers
+are sometimes, but we need to be able to communicate with them
+and understand them. After being a
+researcher for a while, I decided to apply to Google, and I think that past experience, both in operations as
+well as in research plus the degree really helped set
+me up for a success here.
+
+Hi again. Earlier, we explained why it's important
+to explore multiple ideas before settling on one solution. Using insights from competitive
+audits is one way to ideate. Now, let's explore another way to approach
+the ideation process, known as the "How Might We?" exercise. How Might We is a design thinking
+activity used to translate problems into opportunities for design.
+Let's break that down. The word "how" encourages
+us to explore a bunch of ideas instead of moving forward with
+only one idea for the solution. The word "how" suggests that
+we don't have an answer yet. The word "might" emphasizes that
+our ideas are possible solutions, not the only solution. Finally, the word "we" suggests
+a collaborative effort. Coming up with ideas
+requires teamwork. Think back to our example from earlier. Olivia is a parent who needs a way to ride
+her bike with her 2-year-old Luca because he can't ride his own bike. We came up with a lot of potential
+solutions to Olivia's need. Let's try coming up with some more
+ideas using the How Might We exercise. For example, How might we design a seat
+for a child to ride a bike with an adult? Well, that's a fairly broad question. What about: How might we design a safe, forward-facing
+seat that attaches to adult's bicycle, so that a child can choose to ride or sleep
+while an adult rides on a mountain trail? Okay, that's too specific. Try this instead. How might we design a safe and
+comfortable seat for a child to ride a bike with an adult? The phrasing of that last question
+is what we're looking for during a how might we exercise. The question should be specific in
+describing the needs of the user, but still have room for
+innovation in the final product. This means the question is broad
+enough to leave space for solutions that might not be evident yet. As we know, during the ideation phase,
+we want to come up with a lot of ideas. So for this exercise, we want to come up with a lot of How
+Might We questions, not just one. Coming up with How Might We
+questions can be tricky. To help, the Design School at Stanford
+University outlines a bunch of ways to create How Might We phrases. Some of them include: amp up the good. For example, How might we create
+a traveling experience for a parent and child to enjoy together? Explore the opposite. How might we design a bike for a
+2-year-old to ride with an adult, instead of our original framing of an adult who
+wants to ride a bike with a 2-year-old? Change a status quo. How might we improve public transportation
+options in Olivia's hometown so that she has options other than biking?
+And break the point of view into pieces. How might we make a 2-year-old
+comfortable on a bike? How might we easily travel
+from point A to point B? There are more ways to reframe the problem
+covered in the course readings, too. Asking "How might we?" questions is just one way to ideate and
+approach a design problem. It might be incredibly helpful
+to you and your team, or you might find another
+exercise that works better. Either way, reframing the user's need as a
+question can help you think of your users and their needs in a new way. Next, we'll talk about
+another ideation process: Sketching. Sketching is just what it sounds like: Drawing your potential solutions
+to the design problem. Coming up, we'll go over a popular and useful way
+to sketch that's called Crazy Eights. Get excited!
+
+Hi again. Earlier, we explained why it's important
+to explore multiple ideas before settling on one solution. Using insights from competitive
+audits is one way to ideate. Now, let's explore another way to approach
+the ideation process, known as the "How Might We?" exercise. How Might We is a design thinking
+activity used to translate problems into opportunities for design.
+Let's break that down. The word "how" encourages
+us to explore a bunch of ideas instead of moving forward with
+only one idea for the solution. The word "how" suggests that
+we don't have an answer yet. The word "might" emphasizes that
+our ideas are possible solutions, not the only solution. Finally, the word "we" suggests
+a collaborative effort. Coming up with ideas
+requires teamwork. Think back to our example from earlier. Olivia is a parent who needs a way to ride
+her bike with her 2-year-old Luca because he can't ride his own bike. We came up with a lot of potential
+solutions to Olivia's need. Let's try coming up with some more
+ideas using the How Might We exercise. For example, How might we design a seat
+for a child to ride a bike with an adult? Well, that's a fairly broad question. What about: How might we design a safe, forward-facing
+seat that attaches to adult's bicycle, so that a child can choose to ride or sleep
+while an adult rides on a mountain trail? Okay, that's too specific. Try this instead. How might we design a safe and
+comfortable seat for a child to ride a bike with an adult? The phrasing of that last question
+is what we're looking for during a how might we exercise. The question should be specific in
+describing the needs of the user, but still have room for
+innovation in the final product. This means the question is broad
+enough to leave space for solutions that might not be evident yet. As we know, during the ideation phase,
+we want to come up with a lot of ideas. So for this exercise, we want to come up with a lot of How
+Might We questions, not just one. Coming up with How Might We
+questions can be tricky. To help, the Design School at Stanford
+University outlines a bunch of ways to create How Might We phrases. Some of them include: amp up the good. For example, How might we create
+a traveling experience for a parent and child to enjoy together? Explore the opposite. How might we design a bike for a
+2-year-old to ride with an adult, instead of our original framing of an adult who
+wants to ride a bike with a 2-year-old? Change a status quo. How might we improve public transportation
+options in Olivia's hometown so that she has options other than biking?
+And break the point of view into pieces. How might we make a 2-year-old
+comfortable on a bike? How might we easily travel
+from point A to point B? There are more ways to reframe the problem
+covered in the course readings, too. Asking "How might we?" questions is just one way to ideate and
+approach a design problem. It might be incredibly helpful
+to you and your team, or you might find another
+exercise that works better. Either way, reframing the user's need as a
+question can help you think of your users and their needs in a new way. Next, we'll talk about
+another ideation process: Sketching. Sketching is just what it sounds like: Drawing your potential solutions
+to the design problem. Coming up, we'll go over a popular and useful way
+to sketch that's called Crazy Eights. Get excited!
+
+You now understand
+how we use the How Might We and Crazy Eights exercises to come
+up with more ideas. It might seem odd that both these exercises are part of the same
+ideation process. After all, one method is practical and the other
+is more creative. With the How Might We exercise, you carefully considered a
+very specific user problem to create a list of questions, and with the Crazy
+Eights exercise, you sketched solutions
+to that problem with no limitations and no
+thoughts to practicality. Solving a problem requires both pragmatic and
+creative thinking. In this video, we'll consider how the user journeys you outlined earlier will affect your designs. As a refresher, a user
+journey is the series of experiences a user has while interacting
+with a product. Building off personas
+and stories, journeys help you think
+and feel like the user. Earlier, we defined
+this problem statement: Olivia is a parent
+who needs a way to ride her bike with
+her two-year-old son, Luca, because he can't
+ride his own bike. But we didn't actually create user personas for
+Olivia and Luca. As a refresher, personas are fictional characters
+that represent a product's user groups. They're created to identify a
+user's behavioral patterns. In the real world, we would have completed research before beginning our designs. For example, consider
+the kid's bike seat that's in front of the rider. This is a pretty
+great solution for toddlers who are small, but still strong
+enough to sit upright. But what if Luca were an infant? A small baby wouldn't
+be able to sit upright in that seat
+or wear a helmet, so it's not a safe
+solution for Luca. Or if Luca is much bigger, but isn't able to ride his own bike because
+he has special needs, or there's too much traffic
+for a child to ride alone, that seat arrangement
+won't work either. It's okay if a specific design
+doesn't work for everyone who shares Olivia's problem of needing a safe bike
+seat for her child. But part of the research
+process requires you, as the UX designer
+to figure out who you're designing for and
+what their needs are. Olivia might need an
+entirely new solution. So, think back to your
+user journeys for the problem statement you
+outlined and designed for. Did you keep those personas
+in mind while sketching? If not, go back and add their stories and needs
+into your designs. Maybe you're not sure you have enough research to make the call on what solution
+Olivia really needs. In this hypothetical interview, did you forget to ask Olivia
+how tall her child is, or what his specific needs are? What about Olivia's needs? Some of our bike
+solutions from before could create an extra
+hassle for the rider: I'm looking at you side car. If Olivia rides her bike
+on backcountry roads, that might work perfectly. But if she lives
+in a big city with designated bike lanes
+on busy streets, the size of the side car probably wouldn't be a
+good solution either. It's okay if you didn't ask the right questions;
+you're still learning. Plus sometimes in
+the ideation phase, new blockers come up that
+never occurred to us before. If this happens, consider
+whether you have enough information to go forward, or whether you need to go back to your research and
+collect more data. This work you've done, from
+writing user personas, to mapping the user journey, to exploring design
+concepts through sketching, is a great story to
+tell in your portfolio. It might not be a final project
+that you decide to share, but telling the story of
+the research, the problem, and the proposed solutions, is good practice for the more detailed case studies
+you'll have in the future, and it's something
+employers might look for when reviewing
+your portfolio. We've reached the end
+of the ideate phase. Let's review what you've learned. Understanding design ideation, conducting competitive audits, brainstorming approaches like How Might We and Crazy Eights, and determining if we
+need additional research. See you soon.
